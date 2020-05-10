@@ -10,7 +10,7 @@ npm i
 npm start
 ```
 
-This starts webpack-dev-server on [http://localhost:8080/](http://localhost:8080/).
+This starts webpack-dev-server on [http://localhost:3000/](http://localhost:3000/).
 
 ## Build
 
