@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>microsoft</title>
+    <desc>Created with Sketch.</desc>
+    <g id="microsoft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFF6DC" x="0" y="0" width="80" height="80" rx="26"></rect>
+        <path d="M28,28 L39,28 L39,39 L28,39 L28,28 Z M41,28 L52,28 L52,39 L41,39 L41,28 Z M28,41 L39,41 L39,52 L28,52 L28,41 Z M41,41 L52,41 L52,52 L41,52 L41,41 Z" id="Shape" fill="#FFA303" fill-rule="nonzero"></path>
+    </g>
+</svg>
