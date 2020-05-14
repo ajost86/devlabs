@@ -29,7 +29,7 @@ function Platform() {
         <Section id="platform">
           <Container>
             <CenteredTitle data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-              <Heading2>Present over 50 platforms</Heading2>
+              <Heading2>Neuste Technologie Standards</Heading2>
             </CenteredTitle>
 
             <Paragraph
@@ -39,7 +39,7 @@ function Platform() {
               data-aos-duration="600"
               data-aos-delay="150"
             >
-              We are present over a wide range of social media
+              Sowohl die Arbeit an bestehenden Systemen oder die Integration neuster Technologien stellen für unser Software-Entwickler-Team kein Problem dar.
             </Paragraph>
 
             <CardGrid data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
@@ -64,7 +64,7 @@ function Platform() {
             <DownloadSection data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
               <DownloadCard>
                 <Heading4 data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
-                  Free download of our app now
+                  Unsere Kunden lieben uns!
                 </Heading4>
                 <Paragraph
                   margin="0px 0px 20px 0px"
@@ -72,7 +72,7 @@ function Platform() {
                   data-aos-duration="600"
                   data-aos-delay="350"
                 >
-                  Offer your business with the best assistance for growth.
+                  Lad dir jetzt unsere Case-Studies runter und überzeuge dich selbst von der Qualität unserer Arbeit.
                 </Paragraph>
                 <SolidButton data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
                   Get AeroLand

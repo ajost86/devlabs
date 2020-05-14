@@ -15,7 +15,7 @@ function Contact() {
           <Container>
             <LeftSection>
               <Heading2 data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-                Let’s cooperate!
+                Lass uns sprechen!
               </Heading2>
               <Paragraph
                 color="inherit"
@@ -24,7 +24,7 @@ function Contact() {
                 data-aos-duration="600"
                 data-aos-delay="150"
               >
-                Let’s become partners to build a better future for today.
+                Wenn du heute schon Unterstützung brauchst, oder doch vielleicht erst morgen: Schreib uns eine kurze Nachricht, damit wir in Kontakt bleiben können.
               </Paragraph>
               <form data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                 <Input type="text" placeholder="Name *" name="name" width="calc(50% - 20px)" />
@@ -35,9 +35,9 @@ function Contact() {
                   marginLeft="20px"
                   width="50%"
                 />
-                <Input type="text" placeholder="Subject *" name="subject" />
+                <Input type="text" placeholder="Betreff *" name="subject" />
 
-                <TextArea placeholder="Message *" />
+                <TextArea placeholder="Nachricht *" />
 
                 <GradientButton data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                   Send Message

@@ -26,20 +26,20 @@ function Home({ theme }) {
           <LeftSection>
             <TextBlock>
               <Heading1>
-                Get Your Sites <br /> A Kickstart Now!
+                Software-Entwickler <br /> nach Bedarf für Deine Agentur!
               </Heading1>
               <Paragraph margin="20px 0px 0px 0px" fontSize="18px">
-                There’s no need to be a technical professional to create sites with AeroLand. With
-                simple guides, everything is easy!
+                Developer-Lab versorgt Deine Agentur sofort und rein nach Bedarf mit hochqualifizierten 
+				Software-Entwicklern für die Umsetzung Eurer Projekte. Das alles für nur 300€ Tagessatz.
               </Paragraph>
               <CTARow>
-                <SolidButton>Get Started</SolidButton>
+                <SolidButton>Whatsapp Chat Starten</SolidButton>
                 <QuestionsText>
                   <Paragraph margin="0px 5px 0px 20px" fontWeight="500">
-                    Questions?
+                    Lieber per Email?
                   </Paragraph>
                   <Link target="_blank" href="https://wa.me/491702988400?text=Hi%20there!">
-                    Talk to our team
+                    Hier kontaktieren
                   </Link>
                 </QuestionsText>
               </CTARow>

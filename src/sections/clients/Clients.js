@@ -42,7 +42,7 @@ function Clients() {
       <Section id="clients">
         <Container>
           <CenteredTitle data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-            <Heading2>A reliable top-rated company</Heading2>
+            <Heading2>Unsere Kunden sprechen für sich</Heading2>
           </CenteredTitle>
           <Paragraph
             color="inherit"
@@ -52,7 +52,7 @@ function Clients() {
             data-aos-duration="600"
             data-aos-delay="150"
           >
-            We deliver the best services for app design and coding
+            Ob etabliertes Unternehmen oder Startup, seit über 10 Jahren arbeiten wir mit den Technologie-Führern weltweit zusammen.
           </Paragraph>
           <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
             <Swiper {...params}>

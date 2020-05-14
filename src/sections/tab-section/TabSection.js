@@ -64,7 +64,7 @@ const tabs = [
               >
                 <CheckList width="16px" color={theme.palette.accent} />
                 <Paragraph color="inherit" margin="0px 0px 0px 20px">
-                  Receive real-time business analytics
+                  Volle Transparenz der Kosten
                 </Paragraph>
               </FeaturedListItem>
               <FeaturedListItem
@@ -75,7 +75,7 @@ const tabs = [
               >
                 <CheckList width="16px" color={theme.palette.accent} />
                 <Paragraph color="inherit" margin="0px 0px 0px 20px">
-                  Cross-browser Compatible Design
+                  keine Berechnung von Urlaub & Krankheitstagen
                 </Paragraph>
               </FeaturedListItem>
               <FeaturedListItem
@@ -86,7 +86,7 @@ const tabs = [
               >
                 <CheckList width="16px" color={theme.palette.accent} />
                 <Paragraph color="inherit" margin="0px 0px 0px 20px">
-                  Completely Gutenberg Ready
+                  inkl. dedizierter Ansprechpartner in München
                 </Paragraph>
               </FeaturedListItem>
               <FeaturedListItem
@@ -97,7 +97,7 @@ const tabs = [
               >
                 <CheckList width="16px" color={theme.palette.accent} />
                 <Paragraph color="inherit" margin="0px 0px 0px 20px">
-                  Highly Responsive Tools
+                  keine Vertragsbindung
                 </Paragraph>
               </FeaturedListItem>
             </FeaturedList>
@@ -226,7 +226,7 @@ function TabSection({ theme }) {
         <Container>
           <CenteredTitle data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
             <Heading2>
-              We design powerful websites for <br /> landing your success.
+              Direkter Ansprechpartner aus München für alle Anfragen.
             </Heading2>
           </CenteredTitle>
 

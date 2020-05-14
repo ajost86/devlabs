@@ -45,7 +45,7 @@ function Team({ theme }) {
         <Section id="team">
           <Container>
             <CenteredTitle data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-              <Heading2 color={theme.palette.neutral.white}>Our experience experts</Heading2>
+              <Heading2 color={theme.palette.neutral.white}>Echte Software-Entwickler</Heading2>
             </CenteredTitle>
             <Paragraph
               textAlign="center"
@@ -54,7 +54,7 @@ function Team({ theme }) {
               data-aos-duration="600"
               data-aos-delay="150"
             >
-              We’ll help you achieve your marketing & business goals
+             Unsere Entwickler haben mindestens 3 Jahre Berufserfahrung und sind Experten in ihrem jeweiligen Fachbereich.
             </Paragraph>
 
             <Swiper {...params}>

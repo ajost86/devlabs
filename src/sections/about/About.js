@@ -32,7 +32,7 @@ function About() {
           <Container>
             <CenteredTitle data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
               <Heading2>
-                We’ve created enticing designs for <br /> startups and new businesses
+               Software-Entwickler für 300€ pro Tag <br /> für das Outsourcing Deiner IT Projekte
               </Heading2>
             </CenteredTitle>
 
@@ -54,7 +54,7 @@ function About() {
                 className="aboutCard"
                 cardIcon={<img src={BoxIcon1} alt="" />}
                 cardTitle="Web Development"
-                cardParagraph="Consider this app a platform for connecting people from everywhere based on their preferences."
+                cardParagraph="Aufbau, Maintenance & Konzeption von Web Projekten."
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="300"
@@ -62,8 +62,8 @@ function About() {
               <Card
                 className="aboutCard"
                 cardIcon={<img src={BoxIcon2} alt="" />}
-                cardTitle="Social Media"
-                cardParagraph="Consider this app a platform for connecting people from everywhere based on their preferences."
+                cardTitle="Mobile Apps"
+                cardParagraph="Native Mobile Apps in allen gängigen Programmiersprachen."
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="300"
@@ -71,8 +71,8 @@ function About() {
               <Card
                 className="aboutCard"
                 cardIcon={<img src={BoxIcon3} alt="" />}
-                cardTitle="SEO Marketing"
-                cardParagraph="Consider this app a platform for connecting people from everywhere based on their preferences."
+                cardTitle="Ecommerce & Marketplaces"
+                cardParagraph="Breite Erfahrung mit Magento, Shopify & anderen Shopystemen."
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="300"
@@ -81,8 +81,8 @@ function About() {
               <Card
                 className="aboutCard"
                 cardIcon={<img src={BoxIcon4} alt="" />}
-                cardTitle="Keywords Search"
-                cardParagraph="Consider this app a platform for connecting people from everywhere based on their preferences."
+                cardTitle="Cyber Security"
+                cardParagraph="Penetration Tests, DSGVO Konformitätsprüfungen und Cyber Security Audits."
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="400"
@@ -90,8 +90,8 @@ function About() {
               <Card
                 className="aboutCard"
                 cardIcon={<img src={BoxIcon5} alt="" />}
-                cardTitle="Email optimization"
-                cardParagraph="Consider this app a platform for connecting people from everywhere based on their preferences."
+                cardTitle="SEO Projekte"
+                cardParagraph="Page Speed Verbesserungen & technische Umsetzung Eurer SEO Projekte."
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="400"
@@ -99,8 +99,8 @@ function About() {
               <Card
                 className="aboutCard"
                 cardIcon={<img src={BoxIcon6} alt="" />}
-                cardTitle="Web Design"
-                cardParagraph="Consider this app a platform for connecting people from everywhere based on their preferences."
+                cardTitle="Email Templates"
+                cardParagraph="Aufbau von Newsletter und Transaktions-Email Tempates für Mailchimp & andere Systeme."
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="400"

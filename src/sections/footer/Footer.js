@@ -41,7 +41,7 @@ function Footer({ theme }) {
             <FooterLink href="http://google.com">Mobile app</FooterLink>
           </Column>
           <Column>
-            <Heading6 color={theme.palette.neutral.white}>Who we are</Heading6>
+            <Heading6 color={theme.palette.neutral.white}>Mehr über uns</Heading6>
             <FooterLink href="http://google.com">About us</FooterLink>
             <FooterLink href="http://google.com">Before you go</FooterLink>
             <FooterLink href="http://google.com">Online check in</FooterLink>
