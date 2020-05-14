@@ -45,7 +45,7 @@ function Navbar({ theme }) {
 
         <MenuItems ref={menuItemsEl} heightMenu={heightMenu}>
           <ScrollLink hashSpy to="home" smooth color="inherit" fontSize="14px">
-            HOME
+            START
           </ScrollLink>
           <ScrollLink
             hashSpy
@@ -56,7 +56,7 @@ function Navbar({ theme }) {
             color="inherit"
             fontSize="14px"
           >
-            ABOUT
+            ANGEBOT
           </ScrollLink>
           <ScrollLink
             hashSpy
@@ -67,7 +67,7 @@ function Navbar({ theme }) {
             color="inherit"
             fontSize="14px"
           >
-            PLATFORM
+            ZUSAMMENARBEIT
           </ScrollLink>
           <ScrollLink
             hashSpy
@@ -89,7 +89,7 @@ function Navbar({ theme }) {
             color="inherit"
             fontSize="14px"
           >
-            CONTACT
+            ANFRAGE
           </ScrollLink>
         </MenuItems>
 
@@ -100,7 +100,7 @@ function Navbar({ theme }) {
             !scrollStarted ? theme.palette.neutral.white : theme.palette.primary.default
           }
         >
-          Hire Us Now
+          Chat Starten
         </SolidButton>
 
         <HamburgerMenu
