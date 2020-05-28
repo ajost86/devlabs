@@ -30,8 +30,7 @@ const options = {
     modules: ['src', 'node_modules'],
     alias: {
       assets: 'assets',
-      containers: 'containers',
-      sections: 'utils',
+      components: 'components',
     },
   },
   module: {

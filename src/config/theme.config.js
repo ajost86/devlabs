@@ -6,6 +6,10 @@ const theme = {
       light: '#7c82fe',
     },
 
+    secondary: {
+      orange: '#ee7455',
+    },
+
     accent: '#4fce5d',
 
     neutral: {
@@ -15,7 +19,7 @@ const theme = {
     },
 
     gradients: {
-      primary: 'linear-gradient(218deg, #5e327f, #9c7af2 50%, #5e61e7)',
+      primary: 'linear-gradient(218deg, #5e61e7, #9c7af2 50%, #5e61e7)',
       secondary: 'linear-gradient(-225deg, #f8c59b, #e68c60)',
       background: 'linear-gradient(-259deg, #5e60e7, #9c7af2 65%)',
     },

@@ -41,7 +41,11 @@ const GlobalStyle = createGlobalStyle`
   ::selection {
     color: ${({ theme }) => theme.palette.neutral.white};
     background-color: ${({ theme }) => theme.palette.primary.default};
-}
+  }
+
+  strong {
+    font-weight: 500;
+  }
 `;
 
 export default GlobalStyle;

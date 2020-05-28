@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 
 import Menu from 'assets/img/hero/menu.svg';
-import { SolidButton } from 'assets/styles/buttons';
+import { LinkButton } from 'assets/styles/typography';
 import LightLogo from 'assets/img/hero/light-logo.png';
 import DarkLogo from 'assets/img/hero/dark-logo.png';
 import { Nav, MenuItems, HamburgerMenu, ScrollLink } from './style';
@@ -15,11 +16,17 @@ function Navbar({ theme }) {
 
   useEffect(() => {
     const checkScrollStarted = () => {
-      if (!scrollStarted) {
-        setScrollStarted(window.scrollY > 10);
-      } else {
-        setScrollStarted(window.scrollY < 11);
-      }
+      setScrollStarted((prevScrollStarted) => {
+        if (!prevScrollStarted) {
+          if (window.scrollY > 10) {
+            return true;
+          }
+        } else if (window.scrollY < 11) {
+          return false;
+        }
+
+        return prevScrollStarted;
+      });
     };
 
     window.addEventListener('scroll', checkScrollStarted);
@@ -41,10 +48,12 @@ function Navbar({ theme }) {
   return (
     <>
       <Nav className={`${scrollStarted ? 'scrolledNavbar' : ''}`}>
-        <img src={!scrollStarted ? LightLogo : DarkLogo} alt="" />
+        <Link to="/">
+          <img src={!scrollStarted ? LightLogo : DarkLogo} alt="" />
+        </Link>
 
         <MenuItems ref={menuItemsEl} heightMenu={heightMenu}>
-          <ScrollLink hashSpy to="home" smooth color="inherit" fontSize="14px">
+          <ScrollLink hashSpy to="hero" smooth color="inherit" fontSize="14px">
             START
           </ScrollLink>
           <ScrollLink
@@ -93,15 +102,15 @@ function Navbar({ theme }) {
           </ScrollLink>
         </MenuItems>
 
-        <SolidButton
+        <LinkButton
           className="hire-us"
+          target="_blank"
+          href="https://wa.me/491702988400?text=Hi%20there!"
           color={!scrollStarted ? theme.palette.primary.default : theme.palette.neutral.white}
-          backgroundColor={
-            !scrollStarted ? theme.palette.neutral.white : theme.palette.primary.default
-          }
+          backgroundColor={!scrollStarted ? theme.palette.neutral.white : theme.palette.accent}
         >
           Chat Starten
-        </SolidButton>
+        </LinkButton>
 
         <HamburgerMenu
           className="hamburger-menu"

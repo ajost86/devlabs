@@ -18,6 +18,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-id-swiper": "^3.0.0",
+    "react-router-dom": "^5.2.0",
     "react-scroll": "^1.7.16",
     "react-transition-group": "^4.3.0",
     "styled-components": "^4.3.2",
@@ -57,5 +58,8 @@
     "> 1%",
     "not IE 11",
     "last 1 Opera version"
-  ]
+  ],
+  "engines": {
+    "node": "12.16.x"
+  }
 }
