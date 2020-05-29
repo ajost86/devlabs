@@ -28,9 +28,7 @@ function Home() {
       <Platform />
       <ContactDirector />
       <Pricing />
-      <Team />
       <Testimonials />
-      <Seo />
       <Faq />
       <Contact />
       <Footer />

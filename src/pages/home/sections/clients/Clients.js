@@ -3,13 +3,13 @@ import Swiper from 'react-id-swiper';
 import 'swiper/css/swiper.css';
 
 import { Heading2, Heading4, Paragraph, NavLinkButton } from 'assets/styles/typography';
-import Firefox from 'assets/img/clients/firefox.png';
-import Bullfit from 'assets/img/clients/bullfit.png';
-import Adroll from 'assets/img/clients/adroll.png';
-import Eventbrite from 'assets/img/clients/eventbrite.png';
-import Aqua from 'assets/img/clients/aqua.png';
-import Pencil from 'assets/img/clients/pencil.png';
-import Sixbase from 'assets/img/clients/sixbase.png';
+import Bayer from 'assets/img/clients/bayer.png';
+import Nike from 'assets/img/clients/nike.png';
+import Pepsi from 'assets/img/clients/pepsi.png';
+import Philips from 'assets/img/clients/philips.png';
+import Tmobile from 'assets/img/clients/t-mobile.png';
+import Unilever from 'assets/img/clients/unilever.png';
+import Vw from 'assets/img/clients/vw.png';
 import MackbookDownload from 'assets/img/platform/macbook-download.png';
 import {
   Section,
@@ -65,19 +65,19 @@ function Clients() {
           </Paragraph>
           <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
             <Swiper {...params}>
-              <img src={Firefox} alt="" />
-              <img src={Bullfit} alt="" />
-              <img src={Adroll} alt="" />
-              <img src={Eventbrite} alt="" />
-              <img src={Aqua} alt="" />
-              <img src={Pencil} alt="" />
-              <img src={Sixbase} alt="" />
+              <img src={Bayer} alt="" />
+              <img src={Nike} alt="" />
+              <img src={Pepsi} alt="" />
+              <img src={Philips} alt="" />
+              <img src={Tmobile} alt="" />
+              <img src={Unilever} alt="" />
+              <img src={Vw} alt="" />
             </Swiper>
           </div>
           <DownloadSection data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
             <DownloadCard>
               <Heading4 data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
-                Unsere Kunden lieben uns!
+                Beispiele unserer Projekte!
               </Heading4>
               <Paragraph
                 margin="0px 0px 20px 0px"
@@ -94,7 +94,7 @@ function Clients() {
                 data-aos-duration="600"
                 data-aos-delay="400"
               >
-                Get AeroLand
+                Zu den Case-Studies
               </NavLinkButton>
             </DownloadCard>
 

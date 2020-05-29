@@ -2,7 +2,7 @@ import React from 'react';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 
-import { Heading2, Heading6, Paragraph, Link } from 'assets/styles/typography';
+import { Heading2, Heading6, Paragraph, Link, LinkButton } from 'assets/styles/typography';
 import { GradientButton } from 'assets/styles/buttons';
 
 import CheckList from 'assets/img/tab-section/check.svg';
@@ -27,7 +27,7 @@ function ContactDirector({ theme }) {
       <Section>
         <Container>
           <CenteredTitle data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-            <Heading2>Direkter Ansprechpartner aus München für alle Anfragen.</Heading2>
+            <Heading2>Direkter Ansprechpartner in München</Heading2>
           </CenteredTitle>
           <TabContent
             className="active-tab"
@@ -46,7 +46,7 @@ function ContactDirector({ theme }) {
                   data-aos-duration="600"
                   data-aos-delay="300"
                 >
-                  Meeting all of your requirements for SEO & branding
+                  300€ / Tag bedeutet bei uns <strong>all-inclusive</strong> :
                 </Paragraph>
                 <FeaturedList>
                   <FeaturedListItem
@@ -94,25 +94,13 @@ function ContactDirector({ theme }) {
                     </Paragraph>
                   </FeaturedListItem>
                 </FeaturedList>
-                <GradientButton
-                  color="inherit"
-                  data-aos="fade-up"
-                  data-aos-duration="600"
-                  data-aos-delay="350"
+                <LinkButton
+                  target="_blank"
+                  href="https://wa.me/491702988400?text=Hi%20there!"
+                  color="white"
                 >
-                  Learn mode
-                </GradientButton>
-                <LearnMoreRow
-                  color="inherit"
-                  data-aos="fade-up"
-                  data-aos-duration="600"
-                  data-aos-delay="400"
-                >
-                  <Heading6>What’s next in AeroLand?</Heading6>
-                  <Link href="www.google.com" fontSize="18px" margin="0px 0px 0px 5px">
-                    Learn more
-                  </Link>
-                </LearnMoreRow>
+                  Whatsapp Chat Starten
+                </LinkButton>
               </CenteredContent>
             </RightSection>
           </TabContent>

@@ -8,36 +8,82 @@ import { Section, Container, CenteredTitle, Content } from './style';
 const accordionItems = [
   {
     id: 0,
-    title: 'Wieso sind die Kosten so niedrig?',
+    title: 'Wie funktioniert Developer Lab?',
     content: (
       <Paragraph color="inherit">
-        Das entspricht einen Tagessatz von 751,12€. Wie ist es also möglich, dass wir bei Developer
-        Lab Entwickler für 300,00€ am Tag anbieten können? Unser Geschäftsgeheimnis lautet:
-        Exklusive Verträge mit den besten „Entwicklerwerkstätten“ Osteuropas. Unser größter Partner
-        sitzt dabei in Rumänien.
+        300,00€ pro Tag für einen exzellent ausgebildeten Entwickler klingt zu schön um wahr zu sein? 
+        Das haben wir uns auch gedacht! Und deshalb haben wir für Dich unsere jahrelange Erfahrung in der Startup-Szene genutzt 
+        um etwas Licht in den Freelancer-Dschungel zu bringen.
+        Denn wir haben festgestellt, dass die Suche nach qualifizierten und zuverlässigen Freelancern im Ausland sehr zeitintensiv sein kann.
+        Deshalb treffen wir bei Developer Lab die Entscheidung für Dich! Ausgehend von Deinen Anforderungen, stellen wir Dir Dein Team von Spezialisten 
+        zusammen und beraten Dich wie Du dein Projekt am besten umsetzt.
       </Paragraph>
     ),
   },
   {
     id: 1,
-    title: 'Das kommt dir unseriös vor?',
+    title: 'Wieso sind die Kosten so niedrig?',
     content: (
       <Paragraph color="inherit">
-        Laut der Rumänischen Nationalbank wurden im Jahr 2018, IT-Dienstleistungen in Höhe von. 4,5
-        Milliarden Euro umgesetzt. Das entsprach seiner Zeit einer Steigerung von 15 Prozent im
-        Verglich zum Vorjahr. IT-Dienstleistungen stellen damit die zweitgrößte Kategorie an
-        Dienstleistungsexporten in Rumänien dar. Das ist vor allem auf die exzellenten Ausbildung
-        der Fachkräfte und die relativ niedrigen Personalkosten zurückzuführen.
+        Der durchschnittliche Stundensatz bei IT Freelancern liegt in Deutschland bei 93,89€ (Quelle: t3n). 
+        Das entspricht einen Tagessatz von 751,12€. 
+        Wie ist es also möglich, dass wir bei Developer Lab Entwickler für 300,00€ am Tag anbieten können? 
+        Unser Geschäftsgeheimnis lautet: Exklusive Verträge mit den besten „Entwicklerwerkstätten“ Osteuropas. 
+        Unser größter Partner sitzt dabei in Rumänien.
       </Paragraph>
     ),
   },
   {
     id: 2,
-    title: 'Immer noch nicht überzeugt?',
+    title: 'Ist das denn seriös?',
     content: (
       <Paragraph color="inherit">
-        Unsere Entwickler haben mindestens 3 Jahre Berufserfahrung und beherrschen alle gängigen
-        Programmiersprachen. Es fallen keine Kosten für Urlaubs- & Krankheitstage an.
+        Laut der Rumänischen Nationalbank wurden im Jahr 2018, IT-Dienstleistungen in Höhe von. 4,5 Milliarden Euro umgesetzt. 
+        Das entsprach seiner Zeit einer Steigerung von 15 Prozent im Verglich zum Vorjahr. 
+        IT-Dienstleistungen stellen damit die zweitgrößte Kategorie an Dienstleistungsexporten in Rumänien dar. 
+        Das ist vor allem auf die exzellenten Ausbildung der Fachkräfte und die relativ niedrigen Personalkosten zurückzuführen.
+      </Paragraph>
+    ),
+  },
+  {
+    id: 3,
+    title: 'Können die Entwickler bei mir vor Ort arbeiten?',
+    content: (
+      <Paragraph color="inherit">
+        Unsere Kunden schätzen den persönlichen Kontakt zu ihren Teams sehr. 
+        Wir erleben oft, dass die verantwortlichen Entwickler nicht als externe Dienstleister, 
+        sondern viel mehr als Teammitglieder in den einzelnen Unternehmen angesehen werden. 
+        Deshalb können in regelmäßigen Zeitabständen Workshops zu neuen oder erfolgreich abgeschlossenen Projekten stattfinden. 
+        Dazu werden alle Teammitglieder eingeladen, um mit dem Kunden vor Ort gemeinsam zu arbeiten. 
+        Dauer und Kostenübernahme sind dabei im Einzelfall separat zu verhandeln.
+      </Paragraph>
+    ),
+  },
+  {
+    id: 4,
+    title: 'Ist Whitelabeling möglich?',
+    content: (
+      <Paragraph color="inherit">
+        Natürlich! Wir entwickeln in Deinem Namen, sodass für Deine Kunden und Partnern Du und Deine Agentur im Vordergrund bleibt.
+      </Paragraph>
+    ),
+  },
+  {
+    id: 5,
+    title: 'Wie funktionieren Retainer Modelle?',
+    content: (
+      <Paragraph color="inherit">
+        Wir können dir jederzeit mit einem Retainer Modell monatliche Resourcen garantieren – Egal ob 1 Tag die Woche oder Vollzeit. 
+      </Paragraph>
+    ),
+  },
+  {
+    id: 6,
+    title: 'Wie stelle Developer Lab Vertraulichkeit und Datenschutz sicher?',
+    content: (
+      <Paragraph color="inherit">
+        Wir arbeiten mit standardisierten NDA-Vereinbarungen (non-disclosure agreement). 
+        Damit verpflichten sich beide Parteien zur Geheimhaltung projektinterner Details.      
       </Paragraph>
     ),
   },

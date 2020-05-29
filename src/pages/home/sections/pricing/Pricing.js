@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { Heading2, Paragraph } from 'assets/styles/typography';
+import { Heading2, Paragraph, LinkButton } from 'assets/styles/typography';
 
 import PricingCard from 'components/pricingCard';
-import { GradientButton, BorderButton } from 'assets/styles/buttons';
+import { BorderButton } from 'assets/styles/buttons';
 import { Section, Container, CenteredTitle, PricingCardGrid } from './style';
 
 function Pricing() {
@@ -12,110 +12,109 @@ function Pricing() {
       <Section id="pricing">
         <Container>
           <CenteredTitle data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-            <Heading2>Affordable for everyone!</Heading2>
+            <Heading2>Für jeden Bedarf den passenden Entwickler!</Heading2>
           </CenteredTitle>
           <PricingCardGrid>
             <PricingCard
               className="pricingCard"
               cardEmoji="🥑"
-              cardTitle="Free"
-              currency="$"
-              price="0"
-              frequency="mo"
+              cardTitle="Junior"
+              currency="€"
+              price="250"
+              frequency="Tag"
               data-aos="fade-up"
               data-aos-duration="600"
               data-aos-delay="200"
             >
               <Paragraph color="inherit" margin="20px 0px 0px 0px">
-                03 projects
+                1-2 Jahre Berufserfahrung
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 0px 0px">
-                Power And Predictive Dialing
+                ideal für Mini-Projekte
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 0px 0px">
-                Quality & Customer Experience
+                Wordpress, HTML, ...
               </Paragraph>
               <Paragraph color="inherit" fontWeight="500" margin="10px 0px 40px 0px">
-                Try for free, forever!
+                Auch zur Teamergänzung
               </Paragraph>
-
-              <BorderButton>Get started</BorderButton>
+              <BorderButton href="https://wa.me/491702988400?text=Hi%20there!">Jetzt anfragen</BorderButton>
             </PricingCard>
             <PricingCard
               className="pricingCard isPopular"
               cardEmoji="🚀"
-              cardTitle="Started"
-              currency="$"
-              price="19"
-              frequency="mo"
+              cardTitle="Senior"
+              currency="€"
+              price="300"
+              frequency="Tag"
               isPopular
               data-aos="fade-up"
               data-aos-duration="600"
               data-aos-delay="250"
             >
               <Paragraph color="inherit" margin="20px 0px 0px 0px">
-                10 projects
+                3+ Jahre Berufserfahrung
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 0px 0px">
-                Power And Predictive Dialing
+                Allrounder
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 0px 0px">
-                Quality & Customer Experience
+                Höchste Qualitätsstandards
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 40px 0px">
-                24/7 phone and email support
+                Für alle Projekte einsetzbar
               </Paragraph>
-              <GradientButton>Get started</GradientButton>
+              <LinkButton href="https://wa.me/491702988400?text=Hi%20there!">Jetzt anfragen</LinkButton>
             </PricingCard>
             <PricingCard
               className="pricingCard"
               cardEmoji="🌵"
-              cardTitle="Team"
-              currency="$"
-              price="29"
-              frequency="mo"
+              cardTitle="Team Lead"
+              currency="€"
+              price="350"
+              frequency="Tag"
               data-aos="fade-up"
               data-aos-duration="600"
               data-aos-delay="300"
             >
               <Paragraph color="inherit" margin="20px 0px 0px 0px">
-                50 projects
+                5+ Jahre Berufserfahrung
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 0px 0px">
-                Power And Predictive Dialing
+                Agiles Projektmanagement
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 0px 0px">
-                Quality & Customer Experience
+                Team- & Mitarbeiterführung
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 40px 0px">
-                24/7 phone and email support
+                Empfohlen ab 3 Entwicklern
               </Paragraph>
-              <BorderButton>Get started</BorderButton>
+              <BorderButton href="https://wa.me/491702988400?text=Hi%20there!">Jetzt anfragen</BorderButton>
             </PricingCard>
             <PricingCard
               className="pricingCard"
               cardEmoji="🔥"
-              cardTitle="Enterprise"
-              currency="$"
-              price="49"
-              frequency="mo"
+              cardTitle="Guru"
+              currency="€"
+              price="400"
+              frequency="Tag"
               data-aos="fade-up"
               data-aos-duration="600"
               data-aos-delay="350"
             >
               <Paragraph color="inherit" margin="20px 0px 0px 0px">
-                Unlimited projects
+                Min. 10 Jahre Erfahrung
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 0px 0px">
-                Power And Predictive Dialing
+                Verschiedene Spezialgebiete
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 0px 0px">
-                Quality & Customer Experience
+                inkl. IT Architektur Beratung
               </Paragraph>
               <Paragraph color="inherit" margin="10px 0px 40px 0px">
-                24/7 phone and email support
+                Flexibel buchbar
               </Paragraph>
-              <BorderButton>Get started</BorderButton>
+              <BorderButton href="https://wa.me/491702988400?text=Hi%20there!">Jetzt anfragen</BorderButton>
             </PricingCard>
           </PricingCardGrid>
         </Container>

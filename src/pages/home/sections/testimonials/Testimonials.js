@@ -37,44 +37,41 @@ function Testimonials() {
               <Testimonial>
                 <Avatar src={Avatar1} alt="Avatar" />
                 <Text>
-                  “Working with Aeroland is like having a family member who can fix everything!”
+                  “Dev Lab ist unser #1 Partner für sämtliche IT-Projekte!”
                 </Text>
                 <Author>
-                  <Name>Colin</Name>
-                  <Role> / Web designer</Role>
-                </Author>
-              </Testimonial>
-              <Testimonial>
-                <Avatar src={Avatar2} alt="Avatar" />
-                <Text>
-                  “Theme is straightforward to use and works great. It offers enough options for a
-                  quick and clean setup”
-                </Text>
-                <Author>
-                  <Name>Barney Smith</Name>
-                  <Role>/ Marketing</Role>
+                  <Name>Alexander Jost</Name>
+                  <Role> / CEO Health Tech Media GmbH</Role>
                 </Author>
               </Testimonial>
               <Testimonial>
                 <Avatar src={Avatar3} alt="Avatar" />
                 <Text>
-                  “Great theme, just what we were looking for. Easy to install, easy to navigate.
-                  Well-documented. Really enjoyed their support.”
+                  “Developer Lab hat gemeinsam mit uns einen einzigartigen Onlineshop erstellt, der die Branche revolutioniert. Wir konnten zahlreiche Sonderfeatures umsetzen, von denen unsere Kunden profitieren.”
                 </Text>
                 <Author>
-                  <Name>Cassie Ventura</Name>
-                  <Role> / Marketing</Role>
+                  <Name>Host Baumgartner</Name>
+                  <Role>/ CEO Waffen Baumgartner</Role>
+                </Author>
+              </Testimonial>
+              <Testimonial>
+                <Avatar src={Avatar1} alt="Avatar" />
+                <Text>
+                  “Dank Developer Lab können wir uns kurzfristig externe Entwickler beschaffen, die uns bei der Umsetzung unterstützen.”
+                </Text>
+                <Author>
+                  <Name>Henrik Schäfer</Name>
+                  <Role> / CEO Solution25</Role>
                 </Author>
               </Testimonial>
               <Testimonial>
                 <Avatar src={Avatar4} alt="Avatar" />
                 <Text>
-                  “Great template with many predefined and options that comes along with great
-                  support by the theme developers.”
+                  “Die Teamerweiterung von Developer-Lab hat die perfekte Alternative geschaffen..”
                 </Text>
                 <Author>
-                  <Name>Rex Watson</Name>
-                  <Role> / Marketing</Role>
+                  <Name>Erik Waldeck</Name>
+                  <Role> / CEO eFab</Role>
                 </Author>
               </Testimonial>
             </Swiper>

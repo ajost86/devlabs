@@ -47,7 +47,7 @@ function Seo() {
       <Section id="seo">
         <Container>
           <CenteredTitle data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-            <Heading2>SEO</Heading2>
+            <Heading2>Entwickler für Agenturen</Heading2>
           </CenteredTitle>
           <Content data-aos-duration="600" data-aos-delay="200">
             <Accordion accordionItems={accordionItems} allowMultiple />

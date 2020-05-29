@@ -41,7 +41,7 @@ function Contact() {
                 <TextArea placeholder="Nachricht *" />
 
                 <GradientButton data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
-                  Send Message
+                  Nachricht senden
                 </GradientButton>
               </form>
             </LeftSection>

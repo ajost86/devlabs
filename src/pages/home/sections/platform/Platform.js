@@ -38,17 +38,17 @@ function Platform() {
                 small
                 className="platformCard"
                 cardIcon={<ReactLogo />}
-                cardTitle="React Native"
+                cardTitle="React"
               />
               <Card
                 small
                 className="platformCard"
-                cardIcon={<MicrosoftLogo />}
-                cardTitle="Windows"
+                cardIcon={<PHPLogo />}
+                cardTitle="Symfony"
               />
-              <Card small className="platformCard" cardIcon={<AppleLogo />} cardTitle="MacOS" />
+              <Card small className="platformCard" cardIcon={<AppleLogo />} cardTitle="Swift" />
               <Card small className="platformCard" cardIcon={<JavaLogo />} cardTitle="Java" />
-              <Card small className="platformCard" cardIcon={<AndroidLogo />} cardTitle="Android" />
+              <Card small className="platformCard" cardIcon={<AndroidLogo />} cardTitle="Kotlin" />
               <Card small className="platformCard" cardIcon={<PHPLogo />} cardTitle="PHP" />
             </CardGrid>
           </Container>

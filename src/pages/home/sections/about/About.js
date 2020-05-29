@@ -20,7 +20,7 @@ function About() {
           <Container>
             <CenteredTitle data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
               <Heading2>
-                Software-Entwickler für 300€ pro Tag <br /> für das Outsourcing Deiner IT Projekte
+                Software-Entwickler für nur 300€ pro Tag
               </Heading2>
             </CenteredTitle>
 

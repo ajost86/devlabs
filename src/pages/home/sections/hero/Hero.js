@@ -25,12 +25,11 @@ function Hero({ theme }) {
           <LeftSection>
             <TextBlock>
               <Heading1>
-                Software-Entwickler <br /> nach Bedarf für Deine Agentur!
+                Software-Entwickler <br /> für Deine Agentur!
               </Heading1>
               <Paragraph margin="20px 0px 0px 0px" fontSize="18px">
-                Developer-Lab versorgt Deine Agentur sofort und rein nach Bedarf mit
-                hochqualifizierten Software-Entwicklern für die Umsetzung Eurer Projekte. Das alles
-                für nur 300€ Tagessatz.
+                Developer-Lab versorgt Deine Agentur <strong>sofort</strong> und rein nach Bedarf mit
+                hochqualifizierten Software-Entwicklern für die Umsetzung Eurer Projekte für nur <strong>300€ Tagessatz</strong>.
               </Paragraph>
               <CTARow>
                 <LinkButton
