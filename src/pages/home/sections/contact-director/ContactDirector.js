@@ -98,7 +98,7 @@ function ContactDirector({ theme }) {
                 </FeaturedList>
                 <LinkButton
                   target="_blank"
-                  href="https://wa.me/491702988400?text=Hi%20there!"
+                  href="https://wa.me/491702988400?text=Hallo,%20ich%20würde%20gerne%20mehr%20über%20die%20Teamerweiterung%20von%20Developer%20Lab%20erfahren."
                   color="white"
                 >
                   <WhatsappButtonIcon>
