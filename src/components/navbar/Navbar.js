@@ -105,7 +105,7 @@ function Navbar({ theme }) {
         <LinkButton
           className="hire-us"
           target="_blank"
-          href="https://wa.me/491702988400?text=Hi%20there!"
+          href="https://wa.me/491702988400?text=Hallo,%20ich%20würde%20gerne%20mehr%20über%20die%20Teamerweiterung%20von%20Developer%20Lab%20erfahren."
           color={!scrollStarted ? theme.palette.primary.default : theme.palette.neutral.white}
           backgroundColor={!scrollStarted ? theme.palette.neutral.white : theme.palette.accent}
         >
