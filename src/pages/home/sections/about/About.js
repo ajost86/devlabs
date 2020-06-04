@@ -29,7 +29,7 @@ function About() {
                 className="aboutCard"
                 cardIcon={<img src={BoxIcon1} alt="" />}
                 cardTitle="Web Development"
-                cardParagraph="Aufbau, Maintenance & Konzeption von Web Projekten."
+                cardParagraph="Programmierung von Schnittstellen, Umsetzung von Individualsoftware."
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="300"
@@ -38,7 +38,7 @@ function About() {
                 className="aboutCard"
                 cardIcon={<img src={BoxIcon2} alt="" />}
                 cardTitle="Mobile Apps"
-                cardParagraph="Native Mobile Apps in allen gängigen Programmiersprachen."
+                cardParagraph="Native Android & iOS Apps in allen gängigen Programmiersprachen."
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="300"
@@ -74,8 +74,8 @@ function About() {
               <Card
                 className="aboutCard"
                 cardIcon={<img src={BoxIcon6} alt="" />}
-                cardTitle="Email Templates"
-                cardParagraph="Aufbau von Newsletter und Transaktions-Email Tempates für Mailchimp & andere Systeme."
+                cardTitle="Templates"
+                cardParagraph="Onlinemarketing, Lead Generation und einfache Website Erstellung."
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="400"
