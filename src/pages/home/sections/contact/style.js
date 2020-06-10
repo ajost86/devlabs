@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { rgba } from 'polished';
+import { Paragraph } from 'assets/styles/typography';
 
 export const Section = styled.section`
   background-color: ${({ theme }) => theme.palette.neutral.white};
@@ -45,7 +46,7 @@ export const RightSection = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 90%;
+  width: calc(90% - 120px);
   height: auto;
   align-self: flex-start;
   margin-left: 120px;
@@ -77,6 +78,7 @@ export const TextArea = styled.textarea`
   -moz-appearance: none;
   -webkit-appearance: none;
   background-color: ${({ theme }) => rgba(theme.palette.neutral.black, 0.024)};
+  font-family: inherit;
   font-size: 15px;
   letter-spacing: 0;
   width: 100%;
@@ -86,4 +88,8 @@ export const TextArea = styled.textarea`
   margin-bottom: 20px;
   height: 136px;
   resize: vertical;
+`;
+
+export const SuccessMessage = styled(Paragraph)`
+  color: ${({ theme }) => theme.palette.accent};
 `;

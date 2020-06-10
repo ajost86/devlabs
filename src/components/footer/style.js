@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import { rgba, darken } from 'polished';
 
-import { Heading6, Paragraph, Link, NavLink } from 'assets/styles/typography';
+import { Heading6, Paragraph } from 'assets/styles/typography';
+import Link from 'components/link';
 
 export const Section = styled.section`
   background: ${({ theme }) => darken(0.1, theme.palette.primary.dark)};
@@ -47,7 +48,7 @@ export const Logo = styled.img`
   margin-bottom: 30px;
 `;
 
-export const FooterLink = styled(NavLink)`
+export const FooterLink = styled(Link)`
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
 `;

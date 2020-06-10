@@ -3,15 +3,17 @@ import { Element } from 'react-scroll';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 
-import { Heading1, Paragraph, Link, LinkButton } from 'assets/styles/typography';
+import { Heading1, Paragraph } from 'assets/styles/typography';
+import Link from 'components/link';
 import StartupThumb from 'assets/img/hero/startup-thumb.png';
+import WhatsappIcon from 'assets/img/hero/whatsapp-icon.svg';
 
 import {
   HeroSection,
   LeftSection,
   RightSection,
-  TextBlock,
   CTARow,
+  WhatsappButtonIcon,
   Image,
   QuestionsText,
   WaveAnimation,
@@ -23,30 +25,33 @@ function Hero({ theme }) {
       <Element name="hero">
         <HeroSection id="hero">
           <LeftSection>
-            <TextBlock>
-              <Heading1>
-                Software-Entwickler <br /> für Deine Agentur!
-              </Heading1>
-              <Paragraph margin="20px 0px 0px 0px" fontSize="18px">
-                Developer-Lab versorgt Deine Agentur <strong>sofort</strong> und rein nach Bedarf mit
-                hochqualifizierten Software-Entwicklern für die Umsetzung Eurer Projekte für nur <strong>300€ Tagessatz</strong>.
-              </Paragraph>
-              <CTARow>
-                <LinkButton
-                  target="_blank"
-                  href="https://wa.me/491702988400?text=Hi%20there!"
-                  color="white"
-                >
-                  Whatsapp Chat Starten
-                </LinkButton>
-                <QuestionsText>
-                  <Paragraph margin="0px 5px 0px 20px" fontWeight="500">
-                    Lieber per Email?
-                  </Paragraph>
-                  <Link href="mailto:hello@developer-lab.de">Hier kontaktieren</Link>
-                </QuestionsText>
-              </CTARow>
-            </TextBlock>
+            <Heading1>
+              Software-Entwickler <br /> für Deine Agentur!
+            </Heading1>
+            <Paragraph margin="20px 0px 0px 0px" fontSize="18px">
+              Developer-Lab versorgt Deine Agentur <strong>sofort</strong> und rein nach Bedarf mit
+              hochqualifizierten Software-Entwicklern für die Umsetzung Eurer Projekte für nur{' '}
+              <strong>300€ Tagessatz</strong>.
+            </Paragraph>
+            <CTARow>
+              <Link
+                button
+                target="_blank"
+                href="https://wa.me/491702988400?text=Hi%20there!"
+                color="white"
+              >
+                <WhatsappButtonIcon>
+                  <WhatsappIcon width="24px" height="24px" />
+                </WhatsappButtonIcon>
+                Chat Starten
+              </Link>
+              <QuestionsText>
+                <Paragraph margin="0px 5px 0px 20px" fontWeight="500">
+                  Lieber per Email?
+                </Paragraph>
+                <Link href="mailto:hello@developer-lab.de">Hier kontaktieren</Link>
+              </QuestionsText>
+            </CTARow>
           </LeftSection>
 
           <RightSection>

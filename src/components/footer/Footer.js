@@ -35,7 +35,7 @@ function Footer({ theme }) {
             <Paragraph color="rgba(255, 255, 255, 0.7)">
               58 Howard Street #2 San Francisco, CA 941
             </Paragraph>
-            <FooterLink to="http://google.com">contact@aereland.com</FooterLink>
+            <FooterLink href="mailto:hello@developer-lab.de">hello@developer-lab.de</FooterLink>
             <FooterLink to="/terms-and-conditions">AGB</FooterLink>
             <FooterLink to="/data-protections">Datenschutzerklärung</FooterLink>
             <FooterLink to="/contact">Impressum</FooterLink>
@@ -58,7 +58,7 @@ function Footer({ theme }) {
             <Tweet>
               <TweetBox>
                 <Paragraph color="inherit">&quot;Want to meet us?</Paragraph>
-                <TweetLink href="https://wa.me/491702988400?text=Hi%20there!">
+                <TweetLink href="https://wa.me/491702988400?text=Hi%20there!" target="_blank">
                   Whatsapp Chat Starten
                 </TweetLink>
               </TweetBox>

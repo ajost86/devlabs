@@ -3,7 +3,6 @@ import { Element } from 'react-scroll';
 
 import { Heading2, Paragraph } from 'assets/styles/typography';
 import ReactLogo from 'assets/img/platform/react.svg';
-import MicrosoftLogo from 'assets/img/platform/microsoft.svg';
 import AppleLogo from 'assets/img/platform/apple.svg';
 import JavaLogo from 'assets/img/platform/java.svg';
 import AndroidLogo from 'assets/img/platform/android.svg';
@@ -34,18 +33,8 @@ function Platform() {
             </Paragraph>
 
             <CardGrid data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
-              <Card
-                small
-                className="platformCard"
-                cardIcon={<ReactLogo />}
-                cardTitle="React"
-              />
-              <Card
-                small
-                className="platformCard"
-                cardIcon={<PHPLogo />}
-                cardTitle="Symfony"
-              />
+              <Card small className="platformCard" cardIcon={<ReactLogo />} cardTitle="React" />
+              <Card small className="platformCard" cardIcon={<PHPLogo />} cardTitle="Symfony" />
               <Card small className="platformCard" cardIcon={<AppleLogo />} cardTitle="Swift" />
               <Card small className="platformCard" cardIcon={<JavaLogo />} cardTitle="Java" />
               <Card small className="platformCard" cardIcon={<AndroidLogo />} cardTitle="Kotlin" />

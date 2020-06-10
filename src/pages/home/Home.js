@@ -1,37 +1,39 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 
 import Navbar from 'components/navbar';
 import Hero from './sections/hero';
-import About from './sections/about';
-import Platform from './sections/platform';
-import ContactDirector from './sections/contact-director';
-import Pricing from './sections/pricing';
-import Team from './sections/team';
-import Testimonials from './sections/testimonials';
-import Faq from './sections/faq';
-import Seo from './sections/seo';
-import Clients from './sections/clients';
-import Contact from './sections/contact';
-import Footer from '../../components/footer';
+
+const About = lazy(() => import('./sections/about'));
+const Platform = lazy(() => import('./sections/platform'));
+const ContactDirector = lazy(() => import('./sections/contact-director'));
+const Pricing = lazy(() => import('./sections/pricing'));
+const Testimonials = lazy(() => import('./sections/testimonials'));
+const Faq = lazy(() => import('./sections/faq'));
+const Clients = lazy(() => import('./sections/clients'));
+const Contact = lazy(() => import('./sections/contact'));
+const Footer = lazy(() => import('components/footer'));
 
 function Home() {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const { hash } = window.location;
+    !hash && window.scrollTo(0, 0);
   }, []);
 
   return (
     <>
       <Navbar />
       <Hero />
-      <Clients />
-      <About />
-      <Platform />
-      <ContactDirector />
-      <Pricing />
-      <Testimonials />
-      <Faq />
-      <Contact />
-      <Footer />
+      <Suspense fallback="">
+        <Clients />
+        <About />
+        <Platform />
+        <ContactDirector />
+        <Pricing />
+        <Testimonials />
+        <Faq />
+        <Contact />
+        <Footer />
+      </Suspense>
     </>
   );
 }

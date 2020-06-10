@@ -2,7 +2,8 @@ import React from 'react';
 import Swiper from 'react-id-swiper';
 import 'swiper/css/swiper.css';
 
-import { Heading2, Heading4, Paragraph, NavLinkButton } from 'assets/styles/typography';
+import { Heading2, Heading4, Paragraph } from 'assets/styles/typography';
+import Link from 'components/link';
 import Bayer from 'assets/img/clients/bayer.png';
 import Nike from 'assets/img/clients/nike.png';
 import Pepsi from 'assets/img/clients/pepsi.png';
@@ -88,14 +89,15 @@ function Clients() {
                 Lad dir jetzt unsere Case-Studies runter und überzeuge dich selbst von der Qualität
                 unserer Arbeit.
               </Paragraph>
-              <NavLinkButton
+              <Link
                 to="/case-studies"
+                button
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="400"
               >
                 Zu den Case-Studies
-              </NavLinkButton>
+              </Link>
             </DownloadCard>
 
             <MacbookImage

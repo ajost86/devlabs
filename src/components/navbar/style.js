@@ -62,7 +62,7 @@ export const MenuItems = styled.div`
 `;
 
 export const HamburgerMenu = styled.button`
-  padding: 8px 18px;
+  padding: 8px 12px;
   background-color: ${({ theme }) => theme.palette.neutral.white};
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 5px;
@@ -88,6 +88,7 @@ export const Nav = styled.nav`
 
   a.hire-us {
     margin-left: auto;
+    border-radius: 50px;
   }
 
   &.scrolledNavbar {
@@ -142,7 +143,7 @@ export const Nav = styled.nav`
     }
 
     button.hamburger-menu {
-      display: block;
+      display: flex;
     }
   }
 `;

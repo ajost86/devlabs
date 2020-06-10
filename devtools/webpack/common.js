@@ -12,6 +12,7 @@ const options = {
   output: {
     filename: '[name].js',
     publicPath: '/',
+    chunkFilename: '[name].js',
     path: path.join(__dirname, '../../public'),
   },
   optimization: {
@@ -53,7 +54,7 @@ const options = {
         test: /\.(png|jpe?g|gif)$/i,
         use: [
           {
-            loader: 'url-loader',
+            loader: 'file-loader',
           },
         ],
       },

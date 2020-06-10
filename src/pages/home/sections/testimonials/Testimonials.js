@@ -3,7 +3,6 @@ import Swiper from 'react-id-swiper';
 import 'swiper/css/swiper.css';
 
 import Avatar1 from 'assets/img/testimonials/avatar1.png';
-import Avatar2 from 'assets/img/testimonials/avatar2.png';
 import Avatar3 from 'assets/img/testimonials/avatar3.png';
 import Avatar4 from 'assets/img/testimonials/avatar4.png';
 import {
@@ -36,9 +35,7 @@ function Testimonials() {
             <Swiper {...params}>
               <Testimonial>
                 <Avatar src={Avatar1} alt="Avatar" />
-                <Text>
-                  “Dev Lab ist unser #1 Partner für sämtliche IT-Projekte!”
-                </Text>
+                <Text>“Dev Lab ist unser #1 Partner für sämtliche IT-Projekte!”</Text>
                 <Author>
                   <Name>Alexander Jost</Name>
                   <Role> / CEO Health Tech Media GmbH</Role>
@@ -47,7 +44,9 @@ function Testimonials() {
               <Testimonial>
                 <Avatar src={Avatar3} alt="Avatar" />
                 <Text>
-                  “Developer Lab hat gemeinsam mit uns einen einzigartigen Onlineshop erstellt, der die Branche revolutioniert. Wir konnten zahlreiche Sonderfeatures umsetzen, von denen unsere Kunden profitieren.”
+                  “Developer Lab hat gemeinsam mit uns einen einzigartigen Onlineshop erstellt, der
+                  die Branche revolutioniert. Wir konnten zahlreiche Sonderfeatures umsetzen, von
+                  denen unsere Kunden profitieren.”
                 </Text>
                 <Author>
                   <Name>Host Baumgartner</Name>
@@ -57,7 +56,8 @@ function Testimonials() {
               <Testimonial>
                 <Avatar src={Avatar1} alt="Avatar" />
                 <Text>
-                  “Dank Developer Lab können wir uns kurzfristig externe Entwickler beschaffen, die uns bei der Umsetzung unterstützen.”
+                  “Dank Developer Lab können wir uns kurzfristig externe Entwickler beschaffen, die
+                  uns bei der Umsetzung unterstützen.”
                 </Text>
                 <Author>
                   <Name>Henrik Schäfer</Name>

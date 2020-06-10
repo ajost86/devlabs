@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import Link from 'components/link';
+
 export const Section = styled.section`
   padding: 60px 0;
   margin: 0;
@@ -33,11 +35,20 @@ export const CardSection = styled.div`
   padding: 60px 0;
   display: flex;
   flex-wrap: wrap;
+
+  a {
+    width: 100%;
+  }
 `;
 
 export const Card = styled.div`
   width: calc(33.333% - 30px);
   margin: 15px 15px 30px 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   @media screen and (max-width: 992px) {
     width: calc(50% - 30px);
   }
@@ -46,7 +57,13 @@ export const Card = styled.div`
   }
 `;
 
-export const Image = styled.img`
-  width: 100%;
-  align-self: center;
+export const CardTitle = styled(Link)`
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.23;
+  color: ${({ theme }) => theme.palette.primary.dark};
+  text-align: center;
+  && {
+    width: auto;
+  }
 `;

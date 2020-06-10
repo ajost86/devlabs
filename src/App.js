@@ -1,5 +1,5 @@
 import { hot } from 'react-hot-loader/root';
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import AOS from 'aos';
@@ -8,11 +8,20 @@ import 'aos/dist/aos.css';
 import theme from './config/theme.config';
 import GlobalStyle from './assets/styles/globalStyles';
 
-import Home from './pages/home';
-import CaseStudies from './pages/case_studies';
-import DataProtection from './pages/data-protection';
-import Contact from './pages/contact';
-import TermsAndConditions from './pages/terms-and-conditions';
+const CookieConsent = lazy(() =>
+  import(/* webpackChunkName: "CookieConsent" */ 'components/cookieConsent')
+);
+const Home = lazy(() => import(/* webpackChunkName: "Home" */ './pages/home'));
+const CaseStudies = lazy(() =>
+  import(/* webpackChunkName: "CaseStudies" */ './pages/case_studies')
+);
+const DataProtection = lazy(() =>
+  import(/* webpackChunkName: "DataProtection" */ './pages/data-protection')
+);
+const Contact = lazy(() => import(/* webpackChunkName: "Contact" */ './pages/contact'));
+const TermsAndConditions = lazy(() =>
+  import(/* webpackChunkName: "TermsAndConditions" */ './pages/terms-and-conditions')
+);
 
 AOS.init({
   once: true,
@@ -32,23 +41,26 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/case-studies">
-            <CaseStudies />
-          </Route>
-          <Route exact path="/data-protections">
-            <DataProtection />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-          <Route exact path="/terms-and-conditions">
-            <TermsAndConditions />
-          </Route>
-        </Switch>
+        <Suspense fallback="">
+          <CookieConsent />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/case-studies">
+              <CaseStudies />
+            </Route>
+            <Route exact path="/data-protections">
+              <DataProtection />
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
+            </Route>
+            <Route exact path="/terms-and-conditions">
+              <TermsAndConditions />
+            </Route>
+          </Switch>
+        </Suspense>
       </Router>
     </ThemeProvider>
   );
