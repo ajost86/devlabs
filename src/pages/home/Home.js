@@ -2,6 +2,7 @@ import React, { useEffect, lazy, Suspense } from 'react';
 
 import Navbar from 'components/navbar';
 import Hero from './sections/hero';
+import Helmet from 'react-helmet';
 
 const About = lazy(() => import('./sections/about'));
 const Platform = lazy(() => import('./sections/platform'));
@@ -21,6 +22,9 @@ function Home() {
 
   return (
     <>
+      <Helmet>
+        <link rel="canonical" href="https://developer-lab.de">
+      </Helmet>
       <Navbar />
       <Hero />
       <Suspense fallback="">

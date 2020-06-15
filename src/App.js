@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Helmet from 'react-helmet';
 
 import theme from './config/theme.config';
 import GlobalStyle from './assets/styles/globalStyles';
@@ -39,6 +40,10 @@ document.addEventListener('aos:in', ({ detail }) => {
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <Helmet>
+        <title>Software Entwicklung für 300€ pro Tag | Developer Lab</title>
+        <meta name="description" content="Ob neue Idee oder Skalierung. Entwickler für 300€ am Tag, die exklusiv für Dich und Dein Projekt arbeiten.">
+      </Helmet>
       <GlobalStyle />
       <Router>
         <Suspense fallback="">
