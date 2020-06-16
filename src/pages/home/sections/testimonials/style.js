@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import { rgba, lighten } from 'polished';
+import replaceImageFormat from 'helpers/replaceImageFormat';
 
 import TestimonialsBackground from 'assets/img/testimonials/testimonials-bg.jpg';
 
 export const Section = styled.section`
   padding: 100px 0;
-  background: url(${TestimonialsBackground});
+  background: url(${replaceImageFormat(TestimonialsBackground)});
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

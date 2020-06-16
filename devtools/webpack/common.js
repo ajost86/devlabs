@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const formatter = require('eslint-formatter-pretty');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
+const ImageminWebpWebpackPlugin= require("imagemin-webp-webpack-plugin");
 
 const { env } = process;
 
@@ -81,6 +82,14 @@ const options = {
       favicon: './src/assets/img/favicon.png',
     }),
     new CleanWebpackPlugin(),
+    new ImageminWebpWebpackPlugin({
+      config: [{
+        test: /\.(jpe?g|png)/,
+        options: {
+          quality:  75
+        }
+      }],
+    }),
   ],
 };
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Element } from 'react-scroll';
+import replaceImageFormat from 'helpers/replaceImageFormat';
 
 import { Heading2, Paragraph } from 'assets/styles/typography';
 import { GradientButton } from 'assets/styles/buttons';
@@ -140,7 +141,7 @@ function Contact() {
             </LeftSection>
 
             <RightSection data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
-              <Image src={ContactImage} />
+              <Image src={replaceImageFormat(ContactImage)} />
             </RightSection>
           </Container>
         </Section>

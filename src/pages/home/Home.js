@@ -1,4 +1,5 @@
 import React, { useEffect, lazy, Suspense } from 'react';
+import Helmet from 'react-helmet';
 
 import Navbar from 'components/navbar';
 import Hero from './sections/hero';
@@ -21,6 +22,9 @@ function Home() {
 
   return (
     <>
+      <Helmet>
+        <link rel="canonical" href="https://developer-lab.de" />
+      </Helmet>
       <Navbar />
       <Hero />
       <Suspense fallback="">

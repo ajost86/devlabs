@@ -1,6 +1,7 @@
 import React from 'react';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
+import replaceImageFormat from 'helpers/replaceImageFormat';
 
 import { Heading2, Paragraph, LinkButton } from 'assets/styles/typography';
 
@@ -37,7 +38,7 @@ function ContactDirector({ theme }) {
             data-aos-delay="300"
           >
             <LeftSection>
-              <TabImage src={FeaturedImage} alt="" />
+              <TabImage src={replaceImageFormat(FeaturedImage)} alt="" />
             </LeftSection>
             <RightSection>
               <CenteredContent>

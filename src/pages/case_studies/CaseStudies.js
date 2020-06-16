@@ -4,6 +4,8 @@ import { Heading2, Paragraph } from 'assets/styles/typography';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 
+import replaceImageFormat from 'helpers/replaceImageFormat';
+
 import cs1 from 'assets/img/case-studies/c_1.png';
 import cs2 from 'assets/img/case-studies/c_2.png';
 import cs3 from 'assets/img/case-studies/c_3.png';
@@ -57,7 +59,7 @@ function CaseStudies({ theme }) {
                 target="_blank"
                 style={{ width: '100%' }}
               >
-                <LazyImage src={cs1} />
+                <LazyImage src={replaceImageFormat(cs1)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -79,7 +81,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/philips.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={cs2} />
+                <LazyImage src={replaceImageFormat(cs2)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -100,7 +102,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/bnp-paribas-online-banking.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={cs3} />
+                <LazyImage src={replaceImageFormat(cs3)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -121,7 +123,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/vw.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={cs4} />
+                <LazyImage src={replaceImageFormat(cs4)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -143,7 +145,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/bnp-paribas-corporate-banking.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={cs5} />
+                <LazyImage src={replaceImageFormat(cs5)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -160,7 +162,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://medistoric.ro/" rel="noopener noreferrer">
-                <LazyImage src={cs6} />
+                <LazyImage src={replaceImageFormat(cs6)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -187,7 +189,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/bnp-paribas-mobile-banking.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={cs7} />
+                <LazyImage src={replaceImageFormat(cs7)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -208,7 +210,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/raiffeisen.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={cs8} />
+                <LazyImage src={replaceImageFormat(cs8)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -225,7 +227,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://runlive.fit/" rel="noopener noreferrer">
-                <LazyImage src={cs9} />
+                <LazyImage src={replaceImageFormat(cs9)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -243,7 +245,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://heriapro.com/" rel="noopener noreferrer">
-                <LazyImage src={cs10} />
+                <LazyImage src={replaceImageFormat(cs10)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -260,7 +262,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://www.nickis.com" rel="noopener noreferrer">
-                <LazyImage src={cs11} />
+                <LazyImage src={replaceImageFormat(cs11)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -277,7 +279,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://www.askdata.com" rel="noopener noreferrer">
-                <LazyImage src={cs12} />
+                <LazyImage src={replaceImageFormat(cs12)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -299,7 +301,7 @@ function CaseStudies({ theme }) {
           <CardSection>
             <Card>
               <a target="_blank" href="https://www.ohhluilu.com/" rel="noopener noreferrer">
-                <LazyImage src={cs13} />
+                <LazyImage src={replaceImageFormat(cs13)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -316,7 +318,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://www.nberg.de/" rel="noopener noreferrer">
-                <LazyImage src={cs14} />
+                <LazyImage src={replaceImageFormat(cs14)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -333,7 +335,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://www.doersoflondon.com/" rel="noopener noreferrer">
-                <LazyImage src={cs15} />
+                <LazyImage src={replaceImageFormat(cs15)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -350,7 +352,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://ernestleoty.com/" rel="noopener noreferrer">
-                <LazyImage src={cs16} />
+                <LazyImage src={replaceImageFormat(cs16)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -371,7 +373,7 @@ function CaseStudies({ theme }) {
           <CardSection>
             <Card>
               <a target="_blank" href="https://trinkform.de/" rel="noopener noreferrer">
-                <LazyImage src={cs17} />
+                <LazyImage src={replaceImageFormat(cs17)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -388,7 +390,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://www.vidima.de/" rel="noopener noreferrer">
-                <LazyImage src={cs18} />
+                <LazyImage src={replaceImageFormat(cs18)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -405,7 +407,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://www.agent25.de/" rel="noopener noreferrer">
-                <LazyImage src={cs19} />
+                <LazyImage src={replaceImageFormat(cs19)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -426,7 +428,7 @@ function CaseStudies({ theme }) {
           <CardSection>
             <Card>
               <a target="_blank" href="https://waffen-baumgartner.com/" rel="noopener noreferrer">
-                <LazyImage src={cs20} />
+                <LazyImage src={replaceImageFormat(cs20)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -443,7 +445,7 @@ function CaseStudies({ theme }) {
 
             <Card>
               <a target="_blank" href="https://shop.3d-model.com/" rel="noopener noreferrer">
-                <LazyImage src={cs22} />
+                <LazyImage src={replaceImageFormat(cs22)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -464,7 +466,7 @@ function CaseStudies({ theme }) {
           <CardSection>
             <Card>
               <a target="_blank" href="https://www.sportcenter-hahn.de/" rel="noopener noreferrer">
-                <LazyImage src={cs25} />
+                <LazyImage src={replaceImageFormat(cs25)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -480,7 +482,7 @@ function CaseStudies({ theme }) {
             </Card>
             <Card>
               <a target="_blank" href="https://autopflege-gruenwald.de/" rel="noopener noreferrer">
-                <LazyImage src={cs26} />
+                <LazyImage src={replaceImageFormat(cs26)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -496,7 +498,7 @@ function CaseStudies({ theme }) {
             </Card>
             <Card>
               <a target="_blank" href="https://karolinwappler.de/" rel="noopener noreferrer">
-                <LazyImage src={cs23} />
+                <LazyImage src={replaceImageFormat(cs23)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -521,7 +523,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/Cyber-Security.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={cs24} />
+                <LazyImage src={replaceImageFormat(cs24)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -541,7 +543,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/Penetration-testing-report.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={cs24} />
+                <LazyImage src={replaceImageFormat(cs24)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -561,7 +563,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/Cyber-security-services.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={cs24} />
+                <LazyImage src={replaceImageFormat(cs24)} />
               </a>
               <CardTitle
                 target="_blank"

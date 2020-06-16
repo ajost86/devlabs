@@ -4,6 +4,7 @@ import 'swiper/css/swiper.css';
 import { Element } from 'react-scroll';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
+import replaceImageFormat from 'helpers/replaceImageFormat';
 
 import { Heading2, Paragraph } from 'assets/styles/typography';
 import Avatar1 from 'assets/img/team/avatar1.png';
@@ -60,7 +61,7 @@ function Team({ theme }) {
 
             <Swiper {...params}>
               <TeamCard
-                cardAvatar={Avatar1}
+                cardAvatar={replaceImageFormat(Avatar1)}
                 cardTitle="Chad Brewer"
                 cardSubtitle="Director"
                 facebook="#"
@@ -71,7 +72,7 @@ function Team({ theme }) {
                 data-aos-delay="200"
               />
               <TeamCard
-                cardAvatar={Avatar2}
+                cardAvatar={replaceImageFormat(Avatar2)}
                 cardTitle="Eric Smith"
                 cardSubtitle="CEO Founder"
                 facebook="#"
@@ -82,7 +83,7 @@ function Team({ theme }) {
                 data-aos-delay="250"
               />
               <TeamCard
-                cardAvatar={Avatar3}
+                cardAvatar={replaceImageFormat(Avatar3)}
                 cardTitle="Erik Murray"
                 cardSubtitle="Founder"
                 facebook="#"
@@ -93,7 +94,7 @@ function Team({ theme }) {
                 data-aos-delay="300"
               />
               <TeamCard
-                cardAvatar={Avatar4}
+                cardAvatar={replaceImageFormat(Avatar4)}
                 cardTitle="Cynthia Casey"
                 cardSubtitle="Designer"
                 facebook="#"
@@ -104,7 +105,7 @@ function Team({ theme }) {
                 data-aos-delay="350"
               />
               <TeamCard
-                cardAvatar={Avatar1}
+                cardAvatar={replaceImageFormat(Avatar1)}
                 cardTitle="Chad Brewer"
                 cardSubtitle="Director"
                 facebook="#"
@@ -112,7 +113,7 @@ function Team({ theme }) {
                 instagram="#"
               />
               <TeamCard
-                cardAvatar={Avatar2}
+                cardAvatar={replaceImageFormat(Avatar2)}
                 cardTitle="Chad Brewer"
                 cardSubtitle="Director"
                 facebook="#"
@@ -120,7 +121,7 @@ function Team({ theme }) {
                 instagram="#"
               />
               <TeamCard
-                cardAvatar={Avatar3}
+                cardAvatar={replaceImageFormat(Avatar3)}
                 cardTitle="Eric Smith"
                 cardSubtitle="CEO Founder"
                 facebook="#"
@@ -128,7 +129,7 @@ function Team({ theme }) {
                 instagram="#"
               />
               <TeamCard
-                cardAvatar={Avatar4}
+                cardAvatar={replaceImageFormat(Avatar4)}
                 cardTitle="Erik Murray"
                 cardSubtitle="Founder"
                 facebook="#"

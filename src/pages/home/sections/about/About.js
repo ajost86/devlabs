@@ -1,6 +1,8 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 
+import replaceImageFormat from 'helpers/replaceImageFormat';
+
 import { Heading2 } from 'assets/styles/typography';
 import BoxIcon1 from 'assets/img/about/box-icon1.png';
 import BoxIcon2 from 'assets/img/about/box-icon2.png';
@@ -27,7 +29,7 @@ function About() {
             <CardGrid>
               <Card
                 className="aboutCard"
-                cardIcon={<img src={BoxIcon1} alt="" />}
+                cardIcon={<img src={replaceImageFormat(BoxIcon1)} alt="" />}
                 cardTitle="Web Development"
                 cardParagraph="Aufbau, Maintenance & Konzeption von Web Projekten."
                 data-aos="fade-up"
@@ -36,7 +38,7 @@ function About() {
               />
               <Card
                 className="aboutCard"
-                cardIcon={<img src={BoxIcon2} alt="" />}
+                cardIcon={<img src={replaceImageFormat(BoxIcon2)} alt="" />}
                 cardTitle="Mobile Apps"
                 cardParagraph="Native Mobile Apps in allen gängigen Programmiersprachen."
                 data-aos="fade-up"
@@ -45,7 +47,7 @@ function About() {
               />
               <Card
                 className="aboutCard"
-                cardIcon={<img src={BoxIcon3} alt="" />}
+                cardIcon={<img src={replaceImageFormat(BoxIcon3)} alt="" />}
                 cardTitle="Ecommerce & Marketplaces"
                 cardParagraph="Breite Erfahrung mit Magento, Shopify & anderen Shopystemen."
                 data-aos="fade-up"
@@ -55,7 +57,7 @@ function About() {
 
               <Card
                 className="aboutCard"
-                cardIcon={<img src={BoxIcon4} alt="" />}
+                cardIcon={<img src={replaceImageFormat(BoxIcon4)} alt="" />}
                 cardTitle="Cyber Security"
                 cardParagraph="Penetration Tests, DSGVO Konformitätsprüfungen und Cyber Security Audits."
                 data-aos="fade-up"
@@ -64,7 +66,7 @@ function About() {
               />
               <Card
                 className="aboutCard"
-                cardIcon={<img src={BoxIcon5} alt="" />}
+                cardIcon={<img src={replaceImageFormat(BoxIcon5)} alt="" />}
                 cardTitle="SEO Projekte"
                 cardParagraph="Page Speed Verbesserungen & technische Umsetzung Eurer SEO Projekte."
                 data-aos="fade-up"
@@ -73,7 +75,7 @@ function About() {
               />
               <Card
                 className="aboutCard"
-                cardIcon={<img src={BoxIcon6} alt="" />}
+                cardIcon={<img src={replaceImageFormat(BoxIcon6)} alt="" />}
                 cardTitle="Email Templates"
                 cardParagraph="Aufbau von Newsletter und Transaktions-Email Tempates für Mailchimp & andere Systeme."
                 data-aos="fade-up"
