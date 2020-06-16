@@ -1,9 +1,12 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
+import replaceImageFormat from 'helpers/replaceImageFormat';
 import 'swiper/css/swiper.css';
 
 import { Heading2, Heading4, Paragraph } from 'assets/styles/typography';
 import Link from 'components/link';
+import LazyImage from 'components/lazy-image';
+
 import Bayer from 'assets/img/clients/bayer.png';
 import Nike from 'assets/img/clients/nike.png';
 import Pepsi from 'assets/img/clients/pepsi.png';
@@ -66,13 +69,13 @@ function Clients() {
           </Paragraph>
           <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
             <Swiper {...params}>
-              <img src={Bayer} alt="" />
-              <img src={Nike} alt="" />
-              <img src={Pepsi} alt="" />
-              <img src={Philips} alt="" />
-              <img src={Tmobile} alt="" />
-              <img src={Unilever} alt="" />
-              <img src={Vw} alt="" />
+              <LazyImage src={replaceImageFormat(Bayer)} alt="" />
+              <LazyImage src={replaceImageFormat(Nike)} alt="" />
+              <LazyImage src={replaceImageFormat(Pepsi)} alt="" />
+              <LazyImage src={replaceImageFormat(Philips)} alt="" />
+              <LazyImage src={replaceImageFormat(Tmobile)} alt="" />
+              <LazyImage src={replaceImageFormat(Unilever)} alt="" />
+              <LazyImage src={replaceImageFormat(Vw)} alt="" />
             </Swiper>
           </div>
           <DownloadSection data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">

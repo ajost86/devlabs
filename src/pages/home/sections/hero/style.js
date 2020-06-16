@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import replaceImageFormat from 'helpers/replaceImageFormat';
 
 import HeroBackground from 'assets/img/hero/startup-bg.jpg';
 
@@ -15,7 +16,7 @@ const moveLeft = keyframes`
 export const HeroSection = styled.section`
   min-height: 100vh;
   background: ${({ theme }) => theme.palette.gradients.background};
-  background: url(${HeroBackground});
+  background: url(${replaceImageFormat(HeroBackground)});
   background-repeat: none;
   background-size: cover;
   background-position: center;

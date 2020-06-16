@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import replaceImageFormat from 'helpers/replaceImageFormat';
 
 import DownloadSectionBackground from 'assets/img/platform/download-section-bg.png';
 
@@ -32,7 +33,7 @@ export const CenteredTitle = styled.div`
 export const DownloadSection = styled.div`
   margin: 120px 0px 80px 0;
   position: relative;
-  background: url(${DownloadSectionBackground}) 55% 100%,
+  background: url(${replaceImageFormat(DownloadSectionBackground)}) 55% 100%,
     ${({ theme }) => theme.palette.gradients.background};
   background-repeat: no-repeat;
   border-radius: 5px;

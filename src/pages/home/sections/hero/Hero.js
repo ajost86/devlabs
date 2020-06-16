@@ -2,6 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import { withTheme } from 'styled-components';
 import PropTypes from 'prop-types';
+import replaceImageFormat from 'helpers/replaceImageFormat';
 
 import { Heading1, Paragraph } from 'assets/styles/typography';
 import Link from 'components/link';
@@ -55,7 +56,7 @@ function Hero({ theme }) {
           </LeftSection>
 
           <RightSection>
-            <Image src={StartupThumb} />
+            <Image src={replaceImageFormat(StartupThumb)} />
           </RightSection>
 
           <WaveAnimation
