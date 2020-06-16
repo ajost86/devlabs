@@ -5,7 +5,7 @@ import TestimonialsBackground from 'assets/img/testimonials/testimonials-bg.jpg'
 
 export const Section = styled.section`
   padding: 100px 0;
-  background: url(${TestimonialsBackground});
+  // background: url(${TestimonialsBackground});
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
