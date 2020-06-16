@@ -21,7 +21,5 @@ export default function replaceImageFormat(path) {
     path = path.replace(/\.jpg$|\.jpeg$|\.png$/, '.webp');
   }
 
-  // console.log('path', path, isWebPSupported);
-
   return path;
 }
