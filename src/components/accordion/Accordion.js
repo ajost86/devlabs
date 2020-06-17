@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-import { Heading6 } from 'assets/styles/typography';
 import PlusIcon from 'assets/img/icons/plus-icon.svg';
 import MinusIcon from 'assets/img/icons/minus-icon.svg';
 import { AccordionItems, AccordionItem, AccordionTitle, AccordionContent } from './style';
@@ -87,7 +86,7 @@ function Accordion({ accordionItems, allowMultiple, ...props }) {
       {accordionItems.map((item, index) => (
         <AccordionItem key={item.id} className={activeItems[index] && 'active'}>
           <AccordionTitle className="accordion-title" onClick={(e) => toggle(e, index)}>
-            <Heading6 color="inherit">{item.title}</Heading6>
+            {item.title}
             {activeItems[index] ? <MinusIcon width="20px" /> : <PlusIcon width="20px" />}
           </AccordionTitle>
           <AccordionContent className="contentWrapper">{item.content}</AccordionContent>
