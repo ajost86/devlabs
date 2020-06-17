@@ -9,6 +9,7 @@ const Platform = lazy(() => import('./sections/platform'));
 const ContactDirector = lazy(() => import('./sections/contact-director'));
 const Pricing = lazy(() => import('./sections/pricing'));
 const Testimonials = lazy(() => import('./sections/testimonials'));
+const Seo = lazy(() => import('./sections/seo'));
 const Faq = lazy(() => import('./sections/faq'));
 const Clients = lazy(() => import('./sections/clients'));
 const Contact = lazy(() => import('./sections/contact'));
@@ -34,6 +35,7 @@ function Home() {
         <ContactDirector />
         <Pricing />
         <Testimonials />
+        <Seo />
         <Faq />
         <Contact />
         <Footer />

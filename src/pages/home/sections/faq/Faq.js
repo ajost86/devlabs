@@ -8,7 +8,7 @@ import { Section, Container, CenteredTitle, Content } from './style';
 const accordionItems = [
   {
     id: 0,
-    title: 'Wie funktioniert Developer Lab?',
+    title: <h6>Wie funktioniert Developer Lab?</h6>,
     content: (
       <Paragraph color="inherit">
         300,00€ pro Tag für einen exzellent ausgebildeten Entwickler klingt zu schön um wahr zu
@@ -23,7 +23,7 @@ const accordionItems = [
   },
   {
     id: 1,
-    title: 'Wieso sind die Kosten so niedrig?',
+    title: <h6>Wieso sind die Kosten so niedrig?</h6>,
     content: (
       <Paragraph color="inherit">
         Der durchschnittliche Stundensatz bei IT Freelancern liegt in Deutschland bei 93,89€
@@ -36,7 +36,7 @@ const accordionItems = [
   },
   {
     id: 2,
-    title: 'Ist das denn seriös?',
+    title: <h6>Ist das denn seriös?</h6>,
     content: (
       <Paragraph color="inherit">
         Laut der Rumänischen Nationalbank wurden im Jahr 2018, IT-Dienstleistungen in Höhe von. 4,5
@@ -49,7 +49,7 @@ const accordionItems = [
   },
   {
     id: 3,
-    title: 'Können die Entwickler bei mir vor Ort arbeiten?',
+    title: <h6>Können die Entwickler bei mir vor Ort arbeiten?</h6>,
     content: (
       <Paragraph color="inherit">
         Unsere Kunden schätzen den persönlichen Kontakt zu ihren Teams sehr. Wir erleben oft, dass
@@ -63,7 +63,7 @@ const accordionItems = [
   },
   {
     id: 4,
-    title: 'Ist Whitelabeling möglich?',
+    title: <h6>Ist Whitelabeling möglich?</h6>,
     content: (
       <Paragraph color="inherit">
         Natürlich! Wir entwickeln in Deinem Namen, sodass für Deine Kunden und Partnern Du und Deine
@@ -73,7 +73,7 @@ const accordionItems = [
   },
   {
     id: 5,
-    title: 'Wie funktionieren Retainer Modelle?',
+    title: <h6>Wie funktionieren Retainer Modelle?</h6>,
     content: (
       <Paragraph color="inherit">
         Wir können dir jederzeit mit einem Retainer Modell monatliche Resourcen garantieren – Egal
@@ -83,7 +83,7 @@ const accordionItems = [
   },
   {
     id: 6,
-    title: 'Wie stelle Developer Lab Vertraulichkeit und Datenschutz sicher?',
+    title: <h6>Wie stelle Developer Lab Vertraulichkeit und Datenschutz sicher?</h6>,
     content: (
       <Paragraph color="inherit">
         Wir arbeiten mit standardisierten NDA-Vereinbarungen (non-disclosure agreement). Damit

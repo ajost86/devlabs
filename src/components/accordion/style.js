@@ -45,7 +45,22 @@ export const AccordionTitle = styled.div`
     cursor: pointer;
   }
 
-  h6,
+  h1, h2, h3, h4, h5, h6 {
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.23;
+    margin: 0;
+    color: ${({ theme }) => rgba(theme.palette.primary.dark, 0.6)};
+    ${(props) => props.color && `color: ${props.color}`};
+    text-align: center;
+    ${(props) => props.textAlign && `text-align: ${props.textAlign}`};
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
   svg {
     pointer-events: none;
   }

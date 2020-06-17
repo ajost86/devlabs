@@ -87,7 +87,7 @@ function Accordion({ accordionItems, allowMultiple, ...props }) {
       {accordionItems.map((item, index) => (
         <AccordionItem key={item.id} className={activeItems[index] && 'active'}>
           <AccordionTitle className="accordion-title" onClick={(e) => toggle(e, index)}>
-            <Heading6 color="inherit">{item.title}</Heading6>
+            {item.title}
             {activeItems[index] ? <MinusIcon width="20px" /> : <PlusIcon width="20px" />}
           </AccordionTitle>
           <AccordionContent className="contentWrapper">{item.content}</AccordionContent>
