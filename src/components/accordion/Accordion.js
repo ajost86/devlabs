@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-import { Heading6 } from 'assets/styles/typography';
 import PlusIcon from 'assets/img/icons/plus-icon.svg';
 import MinusIcon from 'assets/img/icons/minus-icon.svg';
 import { AccordionItems, AccordionItem, AccordionTitle, AccordionContent } from './style';
