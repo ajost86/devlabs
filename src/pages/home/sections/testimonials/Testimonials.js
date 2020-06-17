@@ -36,43 +36,52 @@ function Testimonials() {
             <Swiper {...params}>
               <Testimonial>
                 <Avatar src={replaceImageFormat(Avatar1)} alt="Avatar" />
-                <Text>“Dev Lab ist unser #1 Partner für sämtliche IT-Projekte!”</Text>
+                <Text>
+                  “Dank Developer Lab können wir kurzfristig externe Entwickler beschaffen, die uns bei der Umsetzung unterstützen.”
+                </Text>
                 <Author>
-                  <Name>Alexander Jost</Name>
-                  <Role> / CEO Health Tech Media GmbH</Role>
+                  <Name>Henrik Schäfter</Name>
+                  <Role> / Geschäftsführer Solution25, E-Commerce Agentur</Role>
                 </Author>
               </Testimonial>
               <Testimonial>
                 <Avatar src={replaceImageFormat(Avatar3)} alt="Avatar" />
                 <Text>
-                  “Developer Lab hat gemeinsam mit uns einen einzigartigen Onlineshop erstellt, der
-                  die Branche revolutioniert. Wir konnten zahlreiche Sonderfeatures umsetzen, von
-                  denen unsere Kunden profitieren.”
+                  “Wir erhalten zahlreiche Anfragen zu neuen Projekten. Mit Developer Lab können wir diese umsetzen.”
                 </Text>
                 <Author>
-                  <Name>Host Baumgartner</Name>
-                  <Role>/ CEO Waffen Baumgartner</Role>
+                  <Name>Johannes Berr</Name>
+                  <Role> / Geschäftsführer Elements Webdesign, Agentur für Websiteentwicklung</Role>
                 </Author>
               </Testimonial>
               <Testimonial>
                 <Avatar src={replaceImageFormat(Avatar1)} alt="Avatar" />
                 <Text>
-                  “Dank Developer Lab können wir uns kurzfristig externe Entwickler beschaffen, die
-                  uns bei der Umsetzung unterstützen.”
+                  “Developer Lab ist unser #1 Partner für sämtliche IT Projekte”
                 </Text>
                 <Author>
-                  <Name>Henrik Schäfer</Name>
-                  <Role> / CEO Solution25</Role>
+                  <Name>Alexander Jost</Name>
+                  <Role> / CEO Health Tech Media GmbH, Heathcare Agency</Role>
                 </Author>
               </Testimonial>
               <Testimonial>
                 <Avatar src={replaceImageFormat(Avatar4)} alt="Avatar" />
                 <Text>
-                  “Die Teamerweiterung von Developer-Lab hat die perfekte Alternative geschaffen..”
+                  “Wir kümmern uns um das perfekte Marketing, Developer Lab um die dafür passende technische Lösung.”
                 </Text>
                 <Author>
-                  <Name>Erik Waldeck</Name>
-                  <Role> / CEO eFab</Role>
+                  <Name>Sergej Etkov</Name>
+                  <Role> / CEO TAKEOVER MARKETING, Onlinemarketing Agentur</Role>
+                </Author>
+              </Testimonial>
+              <Testimonial>
+                <Avatar src={replaceImageFormat(Avatar4)} alt="Avatar" />
+                <Text>
+                  “Unsere Großkunden haben höchste Ansprüche, die White Label Lösung von Developer Lab hilft uns kurfristig unsere Ressourcen zu erweitern”
+                </Text>
+                <Author>
+                  <Name>Günter Dechmann</Name>
+                  <Role> / Geschäftsführer DATORA WEBSYSTEMS, Agentur für Websiteentwicklung</Role>
                 </Author>
               </Testimonial>
             </Swiper>

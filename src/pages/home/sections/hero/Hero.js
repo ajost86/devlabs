@@ -31,20 +31,19 @@ function Hero({ theme }) {
             </Heading1>
             <Paragraph margin="20px 0px 0px 0px" fontSize="18px">
               Developer-Lab versorgt Deine Agentur <strong>sofort</strong> und rein nach Bedarf mit
-              hochqualifizierten Software-Entwicklern für die Umsetzung Eurer Projekte für nur{' '}
-              <strong>300€ Tagessatz</strong>.
+              hochqualifizierten Software-Entwicklern für die Umsetzung Eurer Projekte für nur <strong>300€ Tagessatz</strong>.
             </Paragraph>
             <CTARow>
               <Link
                 button
                 target="_blank"
-                href="https://wa.me/491702988400?text=Hi%20there!"
+                href="https://wa.me/491702988400?text=Hallo,%20ich%20würde%20gerne%20mehr%20über%20die%20Teamerweiterung%20von%20Developer%20Lab%20erfahren."
                 color="white"
               >
                 <WhatsappButtonIcon>
                   <WhatsappIcon width="24px" height="24px" />
                 </WhatsappButtonIcon>
-                Chat Starten
+                Whatsapp Chat Starten
               </Link>
               <QuestionsText>
                 <Paragraph margin="0px 5px 0px 20px" fontWeight="500">
@@ -54,11 +53,9 @@ function Hero({ theme }) {
               </QuestionsText>
             </CTARow>
           </LeftSection>
-
           <RightSection>
             <Image src={replaceImageFormat(StartupThumb)} />
           </RightSection>
-
           <WaveAnimation
             x="0px"
             y="0px"

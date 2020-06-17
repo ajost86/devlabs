@@ -38,7 +38,7 @@ function Pricing() {
               <Paragraph color="inherit" fontWeight="500" margin="10px 0px 40px 0px">
                 Auch zur Teamergänzung
               </Paragraph>
-              <BorderButton href="https://wa.me/491702988400?text=Hi%20there!">Jetzt anfragen</BorderButton>
+              <BorderButton href="https://wa.me/491702988400?text=Hallo,%20ich%20würde%20gerne%20mehr%20über%20die%20Teamerweiterung%20von%20Developer%20Lab%20erfahren.">Jetzt anfragen</BorderButton>
             </PricingCard>
             <PricingCard
               className="pricingCard isPopular"
@@ -64,7 +64,7 @@ function Pricing() {
               <Paragraph color="inherit" margin="10px 0px 40px 0px">
                 Für alle Projekte einsetzbar
               </Paragraph>
-              <LinkButton href="https://wa.me/491702988400?text=Hi%20there!">Jetzt anfragen</LinkButton>
+              <LinkButton href="https://wa.me/491702988400?text=Hallo,%20ich%20würde%20gerne%20mehr%20über%20die%20Teamerweiterung%20von%20Developer%20Lab%20erfahren.">Jetzt anfragen</LinkButton>
             </PricingCard>
             <PricingCard
               className="pricingCard"
@@ -89,7 +89,7 @@ function Pricing() {
               <Paragraph color="inherit" margin="10px 0px 40px 0px">
                 Empfohlen ab 3 Entwicklern
               </Paragraph>
-              <BorderButton href="https://wa.me/491702988400?text=Hi%20there!">Jetzt anfragen</BorderButton>
+              <BorderButton href="https://wa.me/491702988400?text=Hallo,%20ich%20würde%20gerne%20mehr%20über%20die%20Teamerweiterung%20von%20Developer%20Lab%20erfahren.">Jetzt anfragen</BorderButton>
             </PricingCard>
             <PricingCard
               className="pricingCard"
@@ -114,7 +114,7 @@ function Pricing() {
               <Paragraph color="inherit" margin="10px 0px 40px 0px">
                 Flexibel buchbar
               </Paragraph>
-              <BorderButton href="https://wa.me/491702988400?text=Hi%20there!">Jetzt anfragen</BorderButton>
+              <BorderButton href="https://wa.me/491702988400?text=Hallo,%20ich%20würde%20gerne%20mehr%20über%20die%20Teamerweiterung%20von%20Developer%20Lab%20erfahren.">Jetzt anfragen</BorderButton>
             </PricingCard>
           </PricingCardGrid>
         </Container>
