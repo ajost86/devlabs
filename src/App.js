@@ -56,13 +56,13 @@ function App() {
             <Route exact path="/case-studies">
               <CaseStudies />
             </Route>
-            <Route exact path="/data-protections">
+            <Route exact path="/datenschutzerklärung">
               <DataProtection />
             </Route>
-            <Route exact path="/contact">
+            <Route exact path="/impressum">
               <Contact />
             </Route>
-            <Route exact path="/terms-and-conditions">
+            <Route exact path="/abg">
               <TermsAndConditions />
             </Route>
           </Switch>

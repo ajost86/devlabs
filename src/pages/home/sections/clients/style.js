@@ -5,6 +5,7 @@ import DownloadSectionBackground from 'assets/img/platform/download-section-bg.p
 
 export const Section = styled.section`
   padding-top: 100px;
+  overflow: hidden;
 `;
 
 export const Container = styled.div`
