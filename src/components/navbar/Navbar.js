@@ -88,9 +88,9 @@ function Navbar({ theme }) {
           >
             ZUSAMMENARBEIT
           </ScrollLink>
-          <ScrollLink to="team" smooth activeClass="activeLink" spy color="inherit" fontSize="14px">
-            TEAM
-          </ScrollLink>
+          <Link className="nav-link" to="/case-studies" color="inherit" fontSize="14px">
+            CASE STUDIES
+          </Link>
           <ScrollLink
             to="contact"
             smooth

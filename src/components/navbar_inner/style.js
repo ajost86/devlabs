@@ -44,6 +44,7 @@ export const MenuItems = styled.div`
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  white-space: nowrap;
 
   ${MenuLink} {
     margin: 0px 26px;

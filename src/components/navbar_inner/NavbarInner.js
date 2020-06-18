@@ -42,8 +42,8 @@ function Navbar({ theme }) {
           <MenuLink to="/#platform" color="inherit" fontSize="14px">
             ZUSAMMENARBEIT
           </MenuLink>
-          <MenuLink to="/#team" color="inherit" fontSize="14px">
-            TEAM
+          <MenuLink to="/case-studies" color="inherit" fontSize="14px">
+            CASE STUDIES
           </MenuLink>
           <MenuLink to="/#contact" color="inherit" fontSize="14px">
             ANFRAGE
