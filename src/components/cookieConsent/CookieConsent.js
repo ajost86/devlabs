@@ -16,8 +16,7 @@ function CookieNotice() {
     <Wrapper className={fadeOut ? 'fade-out' : ''}>
       <Container>
         <Paragraph color="inherit">
-          In order to give you a better service aeroland.com uses cookies. By continuing to browse
-          the site you are agreeing to our <Link to="/terms-and-conditions">use of cookies</Link>.
+          Developer Lab verwendet Cookies, um Dir den bestmöglichen Service zu gewährleisten. Wenn Du auf der Seite weiter surfst, stimmst Du der <Link to="/terms-and-conditions">Cookie-Nutzung</Link> zu.
         </Paragraph>
         <SolidButton
           onClick={() => {
@@ -27,7 +26,7 @@ function CookieNotice() {
             }, 300);
           }}
         >
-          I AGREE
+          ICH STIMME ZU
         </SolidButton>
       </Container>
     </Wrapper>

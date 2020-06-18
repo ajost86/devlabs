@@ -7,6 +7,7 @@ export const SolidButton = styled.button`
   font-weight: 500;
   letter-spacing: 0;
   text-decoration: none;
+  white-space: nowrap;
   color: ${({ theme }) => theme.palette.neutral.white};
   ${(props) => props.color && `color: ${props.color}`}
   background-color: ${({ theme }) => theme.palette.accent};

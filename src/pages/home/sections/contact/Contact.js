@@ -137,7 +137,7 @@ function Contact() {
                 </form>
               )}
 
-              {showSuccess && <SuccessMessage>Message was sent successfully!</SuccessMessage>}
+              {showSuccess && <SuccessMessage>Deine Nachricht wurde erfolgreich versendet. Wir melden uns in Kürze bei Dir.</SuccessMessage>}
             </LeftSection>
 
             <RightSection data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
