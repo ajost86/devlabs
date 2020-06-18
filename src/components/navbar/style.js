@@ -44,9 +44,40 @@ export const MenuItems = styled.div`
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  white-space: nowrap;
 
   ${ScrollLink} {
     margin: 0px 26px;
+  }
+
+  .nav-link {
+    color: inherit;
+    font-size: 14px;
+    margin: 0px 26px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &::after {
+      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 0;
+      height: 1px;
+      background-color: currentColor;
+    }
+
+    &:hover {
+      &::after {
+        width: 100%;
+        right: auto;
+        left: 0;
+      }
+    }
   }
 
   transition: height 400ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -124,7 +155,8 @@ export const Nav = styled.nav`
       margin-top: 4px;
       order: 3;
 
-      ${ScrollLink} {
+      ${ScrollLink},
+      .nav-link {
         margin: 10px 14px;
         color: ${({ theme }) => theme.palette.neutral.black};
       }
