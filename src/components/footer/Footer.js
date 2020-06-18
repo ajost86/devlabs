@@ -36,9 +36,9 @@ function Footer({ theme }) {
               developer-lab.de
             </Paragraph>
             <FooterLink href="mailto:hello@developer-lab.de">hello@developer-lab.de</FooterLink>
-            <FooterLink to="/terms-and-conditions">AGB</FooterLink>
-            <FooterLink to="/data-protections">Datenschutzerklärung</FooterLink>
-            <FooterLink to="/contact">Impressum</FooterLink>
+            <FooterLink to="/abg">AGB</FooterLink>
+            <FooterLink to="/datenschutzerklärung">Datenschutzerklärung</FooterLink>
+            <FooterLink to="/impressum">Impressum</FooterLink>
           </Column>
           <Column>
             <Heading6 color={theme.palette.neutral.white}>Mehr über uns</Heading6>
