@@ -5,6 +5,10 @@ import { Paragraph } from 'assets/styles/typography';
 export const Section = styled.section`
   background-color: ${({ theme }) => theme.palette.neutral.white};
   padding: 120px 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 80px 0 60px;
+  }
 `;
 
 export const Container = styled.div`
@@ -29,9 +33,50 @@ export const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 0 10px;
+
+  .left-section-title {
+    text-align: left;
+  }
 
   @media screen and (max-width: 768px) {
     width: 100%;
+
+    .left-section-title {
+      margin: 20px 0 10px;
+    }
+  }
+`;
+
+export const CTARow = styled.div`
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 1200px) {
+    margin-top: 0;
+    flex-direction: column;
+  }
+`;
+
+export const WhatsappButtonIcon = styled.div`
+  margin-right: 8px;
+  display: flex;
+`;
+
+export const QuestionsText = styled.div`
+  display: flex;
+
+  p {
+    margin: 0px 5px 0px 20px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    margin-top: 20px;
+
+    p {
+      margin: 0 5px 0 0;
+    }
   }
 `;
 
