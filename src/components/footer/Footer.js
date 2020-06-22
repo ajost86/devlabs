@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 
 import { Paragraph, Heading6 } from 'assets/styles/typography';
 import FacebookIcon from 'assets/img/team/facebook.svg';
-import TwitterIcon from 'assets/img/team/twitter.svg';
 import InstagramIcon from 'assets/img/team/instagram.svg';
 import LogoImg from 'assets/img/hero/light-logo.png';
 import Avatar1 from 'assets/img/team/avatar1.png';
@@ -35,7 +34,9 @@ function Footer({ theme }) {
             <Paragraph color="rgba(255, 255, 255, 0.7)">
               developer-lab.de
             </Paragraph>
-            <FooterLink href="mailto:hello@developer-lab.de">hello@developer-lab.de</FooterLink>
+            <Paragraph color="rgba(255, 255, 255, 0.7)">
+              E-mail: <FooterLink href="mailto:hello@developer-lab.de">hello@developer-lab.de</FooterLink>
+            </Paragraph>
             <FooterLink to="/abg">AGB</FooterLink>
             <FooterLink to="/datenschutzerklärung">Datenschutzerklärung</FooterLink>
             <FooterLink to="/impressum">Impressum</FooterLink>
@@ -45,7 +46,19 @@ function Footer({ theme }) {
             <FooterLink to="/case-studies">Case-Studies</FooterLink>
           </Column>
           <Column>
-            <Heading6 color={theme.palette.neutral.white}>Quick links</Heading6>
+            <Heading6 color={theme.palette.neutral.white}>Wir sind mehrsprachig</Heading6>
+            <Paragraph color="rgba(255, 255, 255, 0.7)">
+              Frontend: Angular, React, Vue JS, HTML, CSS
+            </Paragraph>
+            <Paragraph color="rgba(255, 255, 255, 0.7)">
+              Backend: PHP, JAVA, Dot.Net, Node.js, Python, Laravel
+            </Paragraph>
+            <Paragraph color="rgba(255, 255, 255, 0.7)">
+              Mobile: Android, iOS, React Native, Flutter, Swift
+            </Paragraph>
+            <Paragraph color="rgba(255, 255, 255, 0.7)">
+              Shop Systeme: Magento, shopify, shopware, WooCommerce
+            </Paragraph>
           </Column>
           <Column>
             <Tweet>

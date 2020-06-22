@@ -40,7 +40,7 @@ function Testimonials() {
                   “Dank Developer Lab können wir kurzfristig externe Entwickler beschaffen, die uns bei der Umsetzung unterstützen.”
                 </Text>
                 <Author>
-                  <Name>Henrik Schäfter</Name>
+                  <Name>Henrik Schäfer</Name>
                   <Role> / Geschäftsführer Solution25, E-Commerce Agentur</Role>
                 </Author>
               </Testimonial>

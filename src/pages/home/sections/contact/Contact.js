@@ -170,7 +170,6 @@ function Contact() {
               )
               */
               }
-
               {
               /*
               showSuccess && <SuccessMessage>Deine Nachricht wurde erfolgreich versendet. Wir melden uns in Kürze bei Dir.</SuccessMessage>

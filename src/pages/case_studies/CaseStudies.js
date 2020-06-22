@@ -6,31 +6,31 @@ import PropTypes from 'prop-types';
 
 import replaceImageFormat from 'helpers/replaceImageFormat';
 
-import cs1 from 'assets/img/case-studies/c_1.png';
+import cs1 from 'assets/img/case-studies/c_1.jpg';
 import cs2 from 'assets/img/case-studies/c_2.png';
 import cs3 from 'assets/img/case-studies/c_3.png';
 import cs4 from 'assets/img/case-studies/c_4.png';
 import cs5 from 'assets/img/case-studies/c_5.png';
-import cs6 from 'assets/img/case-studies/c_6.png';
+import cs6 from 'assets/img/case-studies/c_6.jpg';
 import cs7 from 'assets/img/case-studies/c_7.png';
 import cs8 from 'assets/img/case-studies/c_8.png';
-import cs9 from 'assets/img/case-studies/c_9.png';
-import cs10 from 'assets/img/case-studies/c_10.png';
+import cs9 from 'assets/img/case-studies/c_9.jpg';
+import cs10 from 'assets/img/case-studies/c_10.jpg';
 import cs11 from 'assets/img/case-studies/c_11.png';
-import cs12 from 'assets/img/case-studies/c_12.png';
-import cs13 from 'assets/img/case-studies/c_13.png';
-import cs14 from 'assets/img/case-studies/c_14.png';
-import cs15 from 'assets/img/case-studies/c_15.png';
-import cs16 from 'assets/img/case-studies/c_16.png';
-import cs17 from 'assets/img/case-studies/c_17.png';
-import cs18 from 'assets/img/case-studies/c_18.png';
-import cs19 from 'assets/img/case-studies/c_19.png';
+import cs12 from 'assets/img/case-studies/c_12.jpg';
+import cs13 from 'assets/img/case-studies/c_13.jpg';
+import cs14 from 'assets/img/case-studies/c_14.jpg';
+import cs15 from 'assets/img/case-studies/c_15.jpg';
+import cs16 from 'assets/img/case-studies/c_16.jpg';
+import cs17 from 'assets/img/case-studies/c_17.jpg';
+import cs18 from 'assets/img/case-studies/c_18.jpg';
+import cs19 from 'assets/img/case-studies/c_19.jpg';
 import cs20 from 'assets/img/case-studies/c_20.png';
 import cs22 from 'assets/img/case-studies/c_22.png';
-import cs23 from 'assets/img/case-studies/c_23.png';
-import cs24 from 'assets/img/case-studies/c_24.png';
-import cs25 from 'assets/img/case-studies/c_25.png';
-import cs26 from 'assets/img/case-studies/c_26.png';
+import cs23 from 'assets/img/case-studies/c_23.jpg';
+import cs24 from 'assets/img/case-studies/c_24.jpg';
+import cs25 from 'assets/img/case-studies/c_25.jpg';
+import cs26 from 'assets/img/case-studies/c_26.jpg';
 
 import NavbarInner from 'components/navbar_inner';
 import Footer from 'components/footer';
@@ -444,12 +444,12 @@ function CaseStudies({ theme }) {
             </Card>
 
             <Card>
-              <a target="_blank" href="https://shop.3d-model.com/" rel="noopener noreferrer">
+              <a target="_blank" href="https://3d-model.com/" rel="noopener noreferrer">
                 <LazyImage src={replaceImageFormat(cs22)} />
               </a>
               <CardTitle
                 target="_blank"
-                href="https://shop.3d-model.com/"
+                href="https://3d-model.com/"
                 margin="10px 0px"
                 color={theme.palette.primary.dark}
               >
@@ -534,7 +534,7 @@ function CaseStudies({ theme }) {
                 Cyber Security Cases
               </CardTitle>
               <Paragraph color="inherit" textAlign="center">
-                Beispiel eines Security Audits
+                Beispiel eines Security Audits.
               </Paragraph>
             </Card>
             <Card>
@@ -554,7 +554,7 @@ function CaseStudies({ theme }) {
                 Penetration Test Report
               </CardTitle>
               <Paragraph color="inherit" textAlign="center">
-                Beispiel eines Penetration Tests
+                Beispiel eines Penetration Tests.
               </Paragraph>
             </Card>
             <Card>
@@ -574,7 +574,7 @@ function CaseStudies({ theme }) {
                 Cyber Security Services
               </CardTitle>
               <Paragraph color="inherit" textAlign="center">
-                Übersicht der angebotenen Cyber Security Services
+                Übersicht der angebotenen Cyber Security Services.
               </Paragraph>
             </Card>
           </CardSection>
