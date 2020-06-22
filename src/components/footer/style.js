@@ -64,6 +64,7 @@ export const Column = styled.div`
 
   ${Heading6} {
     margin-bottom: 20px;
+    text-align: left;
   }
 `;
 

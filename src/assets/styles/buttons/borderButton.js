@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const BorderButton = styled.button`
+export const BorderButton = styled.a`
   padding: 18px 36px;
   font-family: inherit;
   font-size: 15px;
