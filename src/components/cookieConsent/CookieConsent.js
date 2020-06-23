@@ -16,7 +16,7 @@ function CookieNotice() {
     <Wrapper className={fadeOut ? 'fade-out' : ''}>
       <Container>
         <Paragraph color="inherit">
-          Developer Lab verwendet Cookies, um Dir den bestmöglichen Service zu gewährleisten. Wenn Du auf der Seite weiter surfst, stimmst Du der <Link to="/abg">Cookie-Nutzung</Link> zu.
+          Developer Lab verwendet Cookies, um Dir den bestmöglichen Service zu gewährleisten. Wenn Du auf der Seite weiter surfst, stimmst Du der <Link to="/datenschutzerklärung">Cookie-Nutzung</Link> zu.
         </Paragraph>
         <SolidButton
           onClick={() => {

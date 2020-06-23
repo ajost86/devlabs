@@ -57,7 +57,7 @@ function Testimonials() {
               <Testimonial>
                 <Avatar src={replaceImageFormat(Avatar1)} alt="Avatar" />
                 <Text>
-                  “Developer Lab ist unser #1 Partner für sämtliche IT Projekte”
+                  “Developer Lab ist unser #1 Partner für sämtliche IT Projekte.”
                 </Text>
                 <Author>
                   <Name>Alexander Jost</Name>
@@ -77,7 +77,7 @@ function Testimonials() {
               <Testimonial>
                 <Avatar src={replaceImageFormat(Avatar4)} alt="Avatar" />
                 <Text>
-                  “Unsere Großkunden haben höchste Ansprüche, die White Label Lösung von Developer Lab hilft uns kurfristig unsere Ressourcen zu erweitern”
+                  “Unsere Großkunden haben höchste Ansprüche, die White Label Lösung von Developer Lab hilft uns kurfristig unsere Ressourcen zu erweitern.”
                 </Text>
                 <Author>
                   <Name>Günter Dechmann</Name>
