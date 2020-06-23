@@ -28,9 +28,11 @@ import cs19 from 'assets/img/case-studies/c_19.jpg';
 import cs20 from 'assets/img/case-studies/c_20.png';
 import cs22 from 'assets/img/case-studies/c_22.png';
 import cs23 from 'assets/img/case-studies/c_23.jpg';
-import cs24 from 'assets/img/case-studies/c_24.jpg';
-import cs25 from 'assets/img/case-studies/c_25.jpg';
-import cs26 from 'assets/img/case-studies/c_26.jpg';
+import cs25 from 'assets/img/case-studies/c_25.png';
+import cs26 from 'assets/img/case-studies/c_26.png';
+import cs27 from 'assets/img/case-studies/c_27.jpg';
+import cs28 from 'assets/img/case-studies/c_28.jpg';
+import cs29 from 'assets/img/case-studies/c_29.jpg';
 
 import NavbarInner from 'components/navbar_inner';
 import Footer from 'components/footer';
@@ -523,7 +525,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/Cyber-Security.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={replaceImageFormat(cs24)} />
+                <LazyImage src={replaceImageFormat(cs27)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -543,7 +545,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/Penetration-testing-report.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={replaceImageFormat(cs24)} />
+                <LazyImage src={replaceImageFormat(cs28)} />
               </a>
               <CardTitle
                 target="_blank"
@@ -563,7 +565,7 @@ function CaseStudies({ theme }) {
                 href="https://developer-lab.de/assets/cases/Cyber-security-services.pdf"
                 rel="noopener noreferrer"
               >
-                <LazyImage src={replaceImageFormat(cs24)} />
+                <LazyImage src={replaceImageFormat(cs29)} />
               </a>
               <CardTitle
                 target="_blank"
